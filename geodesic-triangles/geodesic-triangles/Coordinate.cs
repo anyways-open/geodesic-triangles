@@ -65,5 +65,21 @@ namespace geodesic_triangles
 
             return new Coordinate(lon, Lat);
         }
+
+        public Coordinate AsPositiveCoordinate()
+        {
+            var lon = Lon;
+            if (lon < 0)
+            {
+                lon += 360;
+            }
+
+            return new Coordinate(lon, Lat);
+        }
+
+        public RadianCoordinate ToRadians()
+        {
+            return new RadianCoordinate(Lon * Math.PI / 180, Lat * Math.PI / 180);
+        }
     }
 }

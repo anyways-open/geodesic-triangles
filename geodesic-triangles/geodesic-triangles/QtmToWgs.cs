@@ -1,9 +1,122 @@
+using System;
 using System.Diagnostics.Contracts;
+
+// ReSharper disable InconsistentNaming
 
 namespace geodesic_triangles
 {
     public static class QtmToWgs
     {
+        public static Triangle GetTriangle(this int[] id)
+        {
+            GetTriangle(out var P0, out var P1, out var P2, id);
+            P0 = P0.AsWrappedCoordinate();
+            P1 = P1.AsWrappedCoordinate();
+            P2 = P2.AsWrappedCoordinate();
+            return new Triangle(P0, P1, P2);
+        }
+        
+        public static Coordinate GetCenterPoint(this int[] id)
+        {
+            GetTriangle(out var P0, out var P1, out var P2, id);
+            return new Coordinate((P0.Lon + P1.Lon + P2.Lon) / 3,
+                (P0.Lat + P1.Lat + P2.Lat) / 3).AsWrappedCoordinate();
+        }
+
+        public static void GetTriangle(out Coordinate P0, out Coordinate P1, out Coordinate P2,
+            params int[] id)
+        {
+            GenerateTopTriangle(id[0], out P0, out P1, out P2);
+
+            for (int i = 1; i < id.Length; i++)
+            {
+                var quadrant = id[i];
+                GetTriangle(quadrant, P0, P1, P2, out P0, out P1, out P2);
+            }
+
+          
+
+        }
+
+
+        public static Triangle GetQuadrant(this Triangle t, int quadrant)
+        {
+            GetTriangle(quadrant, t.P0, t.P1, t.P2, out var p0, out var p1, out var p2);
+            return new Triangle(p0, p1, p2);
+        }
+
+        /// <summary>
+        /// Given the points of a triangle (P0, P1, P2) and the number of the the needed quadrant,
+        /// saves the new triangle coordinates in the respective 'out'-variables.
+        ///
+        /// The quadrants are numbered as following:
+        ///
+        /// 0: the center triangle
+        /// 1: the lowest longitude triangle
+        /// 2: the highest longitude triangle
+        /// 3: the pole-pointing triangle
+        ///
+        /// Note that the order of quadrants is slightly different then in the paper (which assigns 1 to the triangle closest to the meridian).
+        /// 
+        /// </summary>
+        /// <param name="quadrant"></param>
+        /// <param name="P0"></param>
+        /// <param name="P1"></param>
+        /// <param name="P2"></param>
+        /// <param name="subP0"></param>
+        /// <param name="subP1"></param>
+        /// <param name="subP2"></param>
+        public static void GetTriangle(int quadrant, Coordinate P0, Coordinate P1, Coordinate P2,
+            out Coordinate subP0, out Coordinate subP1, out Coordinate subP2)
+        {
+            var equatorLineSplit =
+                new Coordinate((P0.Lon + P2.Lon) / 2,
+                    P0.Lat); // P0.Lat == P2.Lat ==> avg(P0.Lat, P2.lat) == P0.Lat == P2.Lat
+
+            var minLonSplit =
+                new Coordinate((P0.Lon + P1.Lon) / 2, (P0.Lat + P1.Lat) / 2);
+
+            var p1 = P1;
+            if (p1.IsPole())
+            {
+                // If the polepoint IS the pole, then we have to rewrite the longitude
+                // We can do this, as on the pole, the longitude is irrelevant anyway
+                // We have to do it to make sure the longitude is the same in the end
+                p1 = new Coordinate(P2.Lon, p1.Lat);
+            }
+
+
+            var maxLonSplit =
+                new Coordinate((p1.Lon + P2.Lon) / 2, (p1.Lat + P2.Lat) / 2);
+
+            switch (quadrant)
+            {
+                case 0:
+                    subP0 = minLonSplit;
+                    subP1 = equatorLineSplit;
+                    subP2 = maxLonSplit;
+                    return;
+                case 1:
+                    subP0 = P0;
+                    subP1 = minLonSplit;
+                    subP2 = equatorLineSplit;
+                    return;
+                case 2:
+                    subP0 = equatorLineSplit;
+                    subP1 = maxLonSplit;
+                    subP2 = P2;
+                    return;
+                case 3:
+                    subP0 = minLonSplit;
+                    subP1 = P1;
+                    subP2 = maxLonSplit;
+                    return;
+                default:
+                    throw new ArgumentException("Invalid quadrant id: only values between 0 and 3 are allowed");
+            }
+        }
+
+
         /// <summary>
         /// Splits a triangle into for sub-triangles (quadrants)
         ///
@@ -83,6 +196,17 @@ namespace geodesic_triangles
         [Pure]
         public static Triangle GenerateTopTriangle(int octant)
         {
+            GenerateTopTriangle(octant, out var P0, out var P1, out var P2);
+            return new Triangle(P0, P1, P2);
+        }
+
+        public static void GenerateTopTriangle(int octant, out Coordinate P0, out Coordinate P1, out Coordinate P2)
+        {
+            if (octant < 1 || octant > 8)
+            {
+                throw new ArgumentException(
+                    "Octant out of range, expected a value between 1 (included) and 8 (included) but got " + octant);
+            }
             var southernHemisphere = (octant - 1) / 4;
             var latMin = 0;
             var latMax = 90 - 180 * southernHemisphere;
@@ -93,11 +217,9 @@ namespace geodesic_triangles
             var lonMax = 90 + quadrant * 90;
 
 
-            return new Triangle(
-                new Coordinate(lonMin, latMin),
-                new Coordinate(lonMin, latMax),
-                new Coordinate(lonMax, latMin)
-            );
+            P0 = new Coordinate(lonMin, latMin);
+            P1 = new Coordinate(lonMin, latMax);
+            P2 = new Coordinate(lonMax, latMin);
         }
     }
 }

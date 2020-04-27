@@ -14,8 +14,8 @@
       <e p="geodesic-triangle-test" t="IncludeRecursive">
         <e p="DifferenceTest.cs" t="Include" />
         <e p="QtmToWgsTest.cs" t="Include" />
-        <e p="TrigonometryTest.cs" t="Include" />
         <e p="WgsToQtmTest.cs" t="Include" />
+        <e p="ZotTest.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="geodesic-triangle-test.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -33,7 +33,7 @@
         <e p="Triangle.cs" t="Include" />
         <e p="Utils.cs" t="Include" />
         <e p="WgsToQtm.cs" t="Include" />
-        <e p="ZOTTriangle.cs" t="Include" />
+        <e p="ZotCoordinate.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="geodesic-triangles.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">

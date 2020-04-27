@@ -11,6 +11,53 @@ namespace geodesic_triangles
             return new List<(IEnumerable<Coordinate>, string)> {(line, "#ffffff")}.ToGeoJson();
         }
 
+        public static string ToGeoJson(
+            this IEnumerable<((Coordinate a, Coordinate b, Coordinate c) coor, string fill)> triangles,
+            Coordinate targetPoint = default(Coordinate))
+        {
+            var lines = triangles
+                //   .Where(triangle => !(triangle.coor.a.IsNan() || triangle.coor.b.IsNan() || triangle.coor.c.IsNan()))
+                .Select(triangle =>
+                {
+                    var coors = (IEnumerable<Coordinate>) new[]
+                        {triangle.coor.a, triangle.coor.b, triangle.coor.c, triangle.coor.a};
+                    if (triangle.coor.a.IsPole())
+                    {
+                        var poleB = new Coordinate(triangle.coor.b.Lon, triangle.coor.a.Lat);
+                        var poleC = new Coordinate(triangle.coor.c.Lon, triangle.coor.a.Lat);
+
+                        coors = (IEnumerable<Coordinate>) new[]
+                        {
+                            poleC,
+                            poleB,
+                            triangle.coor.b, triangle.coor.c, poleC
+                        };
+                    }
+
+                    return (coors, triangle.fill);
+                });
+            return ToGeoJson(lines, targetPoint);
+        }
+
+        public static List<List<int>> GenerateField(int depth = 5)
+        {
+            var ids = new List<List<int>> {new List<int> {1}};
+
+            for (int i = 1; i < depth; i++)
+            {
+                ids = ids.SelectMany(id =>
+                    new[]
+                    {
+                        id.Append(0).ToList(),
+                        id.Append(1).ToList(),
+                        id.Append(2).ToList(),
+                        id.Append(3).ToList()
+                    }
+                ).ToList();
+            }
+
+            return ids;
+        }
 
         public static string ToGeoJson(this IEnumerable<(IEnumerable<Coordinate> l, string fill)> lines,
             Coordinate targetPoint = default(Coordinate))
@@ -47,26 +94,6 @@ namespace geodesic_triangles
         }
 
 
-        public static string DebugGenerateId(this Coordinate c, int precision)
-        {
-            var id = c.GenerateId(precision);
-
-            var jsonInput = new List<(IEnumerable<Coordinate>, string)>();
-
-
-            var startTriangle = QtmToWgs.GenerateTopTriangle(id[0]);
-            jsonInput.Add((startTriangle.AsLineString(), "#000000"));
-
-
-            for (int i = 1; i < id.Length; i++)
-            {
-                startTriangle = startTriangle.GetQuadrant(id[i]);
-                jsonInput.Add((startTriangle.AsLineString(), "#00ff00"));
-            }
-
-            return ToGeoJson(jsonInput, c);
-        }
-
         private const double RadiusOfEarth = 6371000;
 
         /// <summary>
@@ -87,34 +114,6 @@ namespace geodesic_triangles
             var m = Math.Sqrt(x * x + y * y) * RadiusOfEarth;
 
             return (float) m;
-        }
-
-        public static string SplitAndGeojson(this List<Triangle> currentTriangles, int depth)
-        {
-            var jsonInput = new List<(IEnumerable<Coordinate>, string)>();
-
-            for (int d = 0; d < depth; d++)
-            {
-                jsonInput.Clear();
-                var newTriangles = new List<Triangle>();
-                foreach (var triangle in currentTriangles)
-                {
-                    var (center0, minLonSplit, maxLonSplit, poleClosest3) = triangle.Split();
-                    jsonInput.Add((center0.AsLineString(), "#000000"));
-                    jsonInput.Add((minLonSplit.AsLineString(), "#ff0000"));
-                    jsonInput.Add((poleClosest3.AsLineString(), "#00ff00"));
-                    jsonInput.Add((maxLonSplit.AsLineString(), "#0000ff"));
-
-                    newTriangles.Add(center0);
-                    newTriangles.Add(minLonSplit);
-                    newTriangles.Add(poleClosest3);
-                    newTriangles.Add(maxLonSplit);
-                }
-
-                currentTriangles = newTriangles;
-            }
-
-            return ToGeoJson(jsonInput);
         }
     }
 }

@@ -1,88 +1,167 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
+using static geodesic_triangles.CoordinateExtensions;
 
 namespace geodesic_triangles
 {
     public static class WgsToQtm
     {
-        /// <summary>
-        /// If a great-arc is drawn between p0 and p1, the shortest distance (in radians) between c and this great-arc is calculated.
-        /// The sign of the cross-track-distance indicates if the point is on the left or on the right.
-        /// </summary>
-        /// <param name="c"></param>
-        /// <param name="p0"></param>
-        /// <param name="p1"></param>
-        /// <returns></returns>
-        public static double CrossTrackDistance(this Coordinate c, Coordinate p0, Coordinate p1)
+        public static int[] GetId(this Coordinate c, int depth)
         {
-            // source: https://www.movable-type.co.uk/scripts/latlong.html
-            var d13 = AngularDistanceBetween(p0, c);
-            var bearing12 = InitialBearingRadians(p0, c); 
-            var bearing13 = InitialBearingRadians(p0, p1); 
-            return Math.Asin(Math.Sin(d13) * Math.Sin(bearing13 - bearing12));
+            return c.ToRadians().ToZot().GetId(depth);
         }
 
-        public static double AngularDistanceBetween(Coordinate p0, Coordinate p1)
+        private static double pi2 = Math.PI / 2;
+
+
+        private static ZotCoordinate[] EastMostPointsForOctant
+            =
+            {
+                new ZotCoordinate(0, -pi2), // Octant zero == octant 4
+                new ZotCoordinate(pi2, 0),
+              
+                new ZotCoordinate(0, pi2),
+                new ZotCoordinate(-pi2, 0),
+                new ZotCoordinate(0, -pi2),
+            };
+
+        public static ZotCoordinate EastMostPointFor(int octant)
         {
-            var lat0 = p0.Lat.ToRadians();
-            var lat1 = p1.Lat.ToRadians();
-            var deltaLat = (p1.Lat - p0.Lat).ToRadians();
-            var deltaLon = (p1.Lon - p0.Lon).ToRadians();
-
-            var a = Math.Sin(deltaLat / 2) * Math.Sin(deltaLat / 2) +
-                    Math.Cos(lat0) * Math.Cos(lat1) *
-                    Math.Sin(deltaLon / 2) * Math.Sin(deltaLon / 2);
-            var c = 2 * Math.Atan2(Math.Sqrt(a), Math.Sqrt(1 - a));
-
-            return c;
+            return EastMostPointsForOctant[octant];
         }
 
-        public static double InitialBearingRadians(Coordinate p0, Coordinate p1)
+        public static ZotCoordinate WestMostPointFor(int octant)
         {
-            var lon1 = p1.Lon.ToRadians();
-            var lon0 = p0.Lon.ToRadians();
-
-            var lat1 = p1.Lat.ToRadians();
-            var lat0 = p0.Lat.ToRadians();
-
-            var y = Math.Sin(lon1 - lon0) * Math.Cos(lat1);
-            var x = Math.Cos(lat0) * Math.Sin(lat1) -
-                    Math.Sin(lat0) * Math.Cos(lat1) * Math.Cos(lon1 - lon0);
-            return Math.Atan2(y, x);
+            return EastMostPointsForOctant[octant - 1];
         }
 
-
-        private static double ToRadians(this double degrees)
+        public static int[] GetId(this ZotCoordinate c, int precision)
         {
-            return Math.PI * 2 * degrees / 360;
-        }
+            var oct = 0; // TODO
 
-        [SuppressMessage("ReSharper", "CompareOfFloatsByEqualityOperator")]
-        public static int DetermineQuadrant(Coordinate c, Coordinate p0, Coordinate p1, Coordinate p2)
-        {
+            var xSign = Math.Sign(c.Px);
+            var ySign = Math.Sign(c.Py);
+            if (xSign == 1)
+            {
+                oct = ySign == 1 ? 2 : 1;
+            }
+            else
+            {
+                oct = ySign == 1 ? 3 : 4;
             }
 
-        public static int[] GenerateId(this Coordinate c, int precision)
-        {
             var id = new int[precision];
-            c = c.AsPositiveCoordinate();
-            var octant = DetermineOctant(c);
-            id[0] = octant;
-            QtmToWgs.GenerateTopTriangle(octant, out var p0, out var p1, out var p2);
+            id[0] = oct;
+
+
+            // With the octant known,
+            // We turn the coordinate into the well-known first octant
+            if (oct == 2)
+            {
+                c = new ZotCoordinate(
+                    c.Py,
+                    -c.Px
+                    );
+            }
+            
+            
+            var eastMost = EastMostPointsForOctant[1];
+            var westMost = EastMostPointsForOctant[1 - 1]; // one octant less = 90° longitude westward
+
+            // Pole node
+            var polePointing = new ZotCoordinate(0, 0);
+            if (oct > 5)
+            {
+                // Southern hemisphere: the extremities of both other points
+                polePointing = new ZotCoordinate(eastMost.Px + westMost.Px, eastMost.Py + westMost.Py);
+            }
 
 
             for (int i = 1; i < precision; i++)
             {
-                var quadrant = DetermineQuadrant(c, p0, p1, p2);
-                id[i] = quadrant;
-                QtmToWgs.GetTriangle(quadrant, p0, p1, p2, out p0, out p1, out p2);
+                id[i] = DetermineQuadrant(c, polePointing, eastMost, westMost, out polePointing, out eastMost,
+                    out westMost, out c);
             }
 
             return id;
         }
 
-      
-        
-      
+
+        /// <summary>
+        /// Determines in which quadrant of the triangle the point lies, where p0, p1 and p2 are corners of the triangle
+        /// </summary>
+        /// <param name="c"></param>
+        /// <param name="perpendicularPoint">The node which is the origin of the coordinate system describing c</param>
+        /// <param name="westMost">The clockwise/western most node (differs from paper)</param>
+        /// <param name="eastMost">The counterclockwise/eastern most node (differs from paper)</param>
+        /// <returns></returns>
+        private static int DetermineQuadrant(this ZotCoordinate c,
+            ZotCoordinate perpendicularPoint, ZotCoordinate westMost, ZotCoordinate eastMost,
+            out ZotCoordinate subPerpendicular, out ZotCoordinate subWestMost, out ZotCoordinate subEastMost,
+            out ZotCoordinate newCoordinate
+        )
+        {
+            // Length of the side of the current triangle
+            var s = Math.Abs(westMost.Px - perpendicularPoint.Px);
+            var s2 = s / 2;
+
+            var dx = Math.Abs(perpendicularPoint.Px - c.Px);
+            var dy = Math.Abs(perpendicularPoint.Py - c.Py);
+            newCoordinate = c;
+
+            // Manhatten distance is < s/2 from the pole point
+            // We return 1 (pole closest)
+            if (dx + dy < s2)
+            {
+                // p1n - the new pole-pointing-point lies between p2 and p3
+                subPerpendicular = perpendicularPoint;
+
+
+                // p2n - the new westmost point lies between the polepoint p1 and the current westmost point p2
+                subWestMost = InBetween(perpendicularPoint, westMost);
+                // analog for p3
+                subEastMost = InBetween(eastMost, perpendicularPoint);
+
+                return 3;
+            }
+
+            if (dy > s2)
+            {
+                // The centerpoint moves a bit, halfway between eastmost and polePointing
+                // However, the orientation doesn't change, so we don't have to rewrite the coordinates
+                subPerpendicular = InBetween(eastMost, perpendicularPoint);
+
+                // Eastmost triangle
+                // The eastmost point stays the same
+                subEastMost = eastMost;
+                // The westmost point will lie halfway westmost and eastmost
+                subWestMost = InBetween(eastMost, westMost);
+
+
+                return 1;
+            }
+
+            if (dx > s2)
+            {
+                // The westmost triangle
+                subPerpendicular = InBetween(westMost, perpendicularPoint);
+                subEastMost = InBetween(westMost, eastMost);
+                subWestMost = westMost;
+
+                return 2;
+            }
+
+
+            // The center triangle
+            // The polepointing orientation changes
+            // This implies that the reference of the ZOT-coordinate changes too!
+            // 
+
+            subPerpendicular = InBetween(eastMost, westMost);
+            // S is calculated using westmost.px, so there should be a difference between them
+            subEastMost = InBetween(westMost, perpendicularPoint);
+            subWestMost = InBetween(eastMost, perpendicularPoint);
+            return 0;
+        }
     }
 }

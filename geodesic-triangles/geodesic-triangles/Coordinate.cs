@@ -79,7 +79,17 @@ namespace geodesic_triangles
 
         public RadianCoordinate ToRadians()
         {
-            return new RadianCoordinate(Lon * Math.PI / 180, Lat * Math.PI / 180);
+            var lon = Lon;
+            if (lon < 0)
+            {
+                lon += 360;
+            }
+            return new RadianCoordinate(lon * Math.PI / 180, Lat * Math.PI / 180);
+        }
+
+        public bool IsNan()
+        {
+            return double.IsNaN(Lon) || double.IsNegative(Lat);
         }
     }
 }

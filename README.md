@@ -98,4 +98,6 @@ In order to circumvent this (and to speed up the calculation), the points are co
 
 At this point, calculating the quadrant from a triangle can be done with Manhattan distance. For more details, see the included papers.
 
+## Attribution
 
+Images in this readme are encoded with Geojson.io, the background map is by [OpenStreetMap.org], styled by [Mapbox.com]

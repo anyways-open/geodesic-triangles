@@ -42,7 +42,8 @@ import Anyways.GeodesicTriangles.GeodesicTriangles
 
 All the triangles of all precisions to encode a location in Belgium, Europe:
 
-![BruggeTraingles](Examples/ExampleTriangles_Brugge.png]
+
+![Brugge encoded](Examples/ExampleTriangles_Brugge.png)
 
 
 ## Underlying mathematics
@@ -60,10 +61,10 @@ Octant *1* lies between `(0,0)`, `(90,0)` and the north pole `(*,90)`; octant *2
 
 The southern hemisphere follows the same pattern, with octant *5* between `(0,0)`, `(90,0)` and the _south pole_, octant *6* between `(90,0)`, `(180,0)` and the south pole, ...
 
-The octant number (between 1-8 inclusive; not zero-indexed) is the first number we keep track of. The octant coordinates is the first and biggest _triangle_ that the point falls in. (Note that this triangle contains a pole as angle, which makes it _look_ like a rectangle on a Mercator projected map! Another fun fact is that this triangle has _three_ perpendicular angles).
+The octant number (between 1-8 inclusive; not zero-indexed) is the first number we keep track of. The octant coordinates is the first and biggest _triangle_ that the point falls in. Note that this triangle contains a pole as angle, which makes it _look_ like a rectangle on a Mercator projected map:
 
 
-![BruggeTraingles](Examples/ExampleTriangles_Brugge0.png]
+![BruggeOctant](Examples/ExampleTriangles_Brugge0.png)
 
 
 ### Quandrants
@@ -73,9 +74,9 @@ When the octant is determined, this corresponding triangle is cut into four part
 Every triangle is assigned a number. We determine in which triangle the coordinate we want to encode falls; the corresponding number is appended to the array with the ID.
 If this triangle is still to big for the intended use, it can be split into four parts again, repeating the process just described until the result is satisfactory.
 
-![BruggeTraingles](Examples/ExampleTriangles_Brugge1.png]
-![BruggeTraingles](Examples/ExampleTriangles_Brugge2.png]
-![BruggeTraingles](Examples/ExampleTriangles_Brugge3.png]
+![First quadrant](Examples/Brugge1.png)
+![Second quadrant](Examples/Brugge2.png)
+![Third quadrant](Examples/Brugge3.png)
 
 ### Encoding the ID
 
@@ -95,7 +96,7 @@ In order to circumvent this (and to speed up the calculation), the points are co
 1) Calculate the distance `d` between point on the equator with the same longitudefrom the pole in ZOT-space. In polar coordinates, a point on the equator is always 90° away. In ZOT-space, these points fall on the line between `(0,-90°)` and `(90°,0). 
 2) Rescale the polar coordinate to `(longitude, (90° - latitude) * (d / 90°))`
 
-At this point, calculating the quadrant from a triangle can be done with Manhatten distance. For more details, see the included papers.
+At this point, calculating the quadrant from a triangle can be done with Manhattan distance. For more details, see the included papers.
 
 
 
@@ -133,4 +134,6 @@ Digits of precision | Size of triangle (km²) | Size estimate
 24                  | 1.2m² | A garden table
 25                  | 0.25m² | 
 
+## Attribution
 
+Images in this readme are encoded with Geojson.io, the background map is by [OpenStreetMap.org], styled by [Mapbox.com]

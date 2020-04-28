@@ -65,44 +65,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/GeodesicTriangles.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="136" column="28" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
-              <folding>
-                <marker date="1588115248985" expanded="true" signature="6:89" ph="..." />
-                <marker date="1588115248985" expanded="true" signature="126:6585" ph="{...}" />
-                <marker date="1588115248985" expanded="true" signature="133:329" ph="/// ... " />
-                <marker date="1588115248985" expanded="true" signature="371:6583" ph="{...}" />
-                <marker date="1588115248985" expanded="true" signature="386:747" ph="/// Converts a coordinate into a QTM-id, with 31 (or less) quadrants precision. ... " />
-                <marker date="1588115248985" expanded="true" signature="848:1102" ph="{...}" />
-                <marker date="1588115248985" expanded="true" signature="890:1030" ph="{...}" />
-                <marker date="1588115248985" expanded="true" signature="1111:1550" ph="/// Converts a coordinate into a QTM-id, with 15 (or less) quadrants precision. ... " />
-                <marker date="1588115248985" expanded="true" signature="1652:1952" ph="{...}" />
-                <marker date="1588115248985" expanded="true" signature="1694:1881" ph="{...}" />
-                <marker date="1588115248985" expanded="true" signature="1962:2219" ph="/// Converts a QTM-id into a coordinate, by returning the center point of the represented triangle. ... " />
-                <marker date="1588115248985" expanded="true" signature="2300:2372" ph="{...}" />
-                <marker date="1588115248985" expanded="true" signature="2381:2638" ph="/// Converts a QTM-id into a coordinate, by returning the center point of the represented triangle. ... " />
-                <marker date="1588115248985" expanded="true" signature="2720:2835" ph="{...}" />
-                <marker date="1588115248985" expanded="true" signature="2844:3298" ph="/// Gives the triangle that contains this point, for the given precision. ... " />
-                <marker date="1588115248985" expanded="true" signature="3437:3511" ph="{...}" />
-                <marker date="1588115248985" expanded="true" signature="3520:3819" ph="/// Gives the triangle that contains the given octant. ... " />
-                <marker date="1588115248985" expanded="true" signature="3913:3983" ph="{...}" />
-                <marker date="1588115248985" expanded="true" signature="3992:4434" ph="/// Gives the triangle that is represented by this identifier ... " />
-                <marker date="1588115248985" expanded="true" signature="4523:4590" ph="{...}" />
-                <marker date="1588115248985" expanded="true" signature="4599:5053" ph="/// Gives the triangle that contains this point, for the given precision. ... " />
-                <marker date="1588115248985" expanded="true" signature="5141:5208" ph="{...}" />
-                <marker date="1588115248985" expanded="true" signature="5299:6077" ph="{...}" />
-                <marker date="1588115248985" expanded="true" signature="5624:5848" ph="{...}" />
-                <marker date="1588115248985" expanded="true" signature="5865:6034" ph="{...}" />
-                <marker date="1588115248985" expanded="true" signature="6087:6386" ph="/// This method is mostly meant to give some insight into the process, but should not be used in production. ... " />
-                <marker date="1588115248985" expanded="true" signature="6504:6577" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/Utils.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="91">
@@ -122,47 +84,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/Coordinate.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/DifferenceTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="81">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
               <folding>
-                <marker date="1588115248993" expanded="true" signature="6:127" ph="..." />
-                <marker date="1588115248993" expanded="true" signature="237:2392" ph="{...}" />
-                <marker date="1588115248993" expanded="true" signature="270:2390" ph="{...}" />
-                <marker date="1588115248993" expanded="true" signature="399:617" ph="{...}" />
-                <marker date="1588115248993" expanded="true" signature="495:607" ph="{...}" />
-                <marker date="1588115248993" expanded="true" signature="746:810" ph="{...}" />
-                <marker date="1588115248993" expanded="true" signature="868:937" ph="{...}" />
-                <marker date="1588115248993" expanded="true" signature="1062:1173" ph="{...}" />
-                <marker date="1588115248993" expanded="true" signature="1216:1301" ph="{...}" />
-                <marker date="1588115248993" expanded="true" signature="1311:1477" ph="/// Returns a new coordinate which wraps the longitude onto the regular -180 -&gt; 180 range ... " />
-                <marker date="1588115248993" expanded="true" signature="1540:1801" ph="{...}" />
-                <marker date="1588115248993" expanded="true" signature="1604:1660" ph="{...}" />
-                <marker date="1588115248993" expanded="true" signature="1689:1745" ph="{...}" />
-                <marker date="1588115248993" expanded="true" signature="1851:2025" ph="{...}" />
-                <marker date="1588115248993" expanded="true" signature="1913:1969" ph="{...}" />
-                <marker date="1588115248993" expanded="true" signature="2070:2282" ph="{...}" />
-                <marker date="1588115248993" expanded="true" signature="2132:2188" ph="{...}" />
-                <marker date="1588115248993" expanded="true" signature="2333:2384" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ApiTest.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-              <folding>
-                <marker date="1588115248997" expanded="true" signature="6:26" ph="..." />
-                <marker date="1588115248997" expanded="true" signature="68:1619" ph="{...}" />
-                <marker date="1588115248997" expanded="true" signature="95:1617" ph="{...}" />
-                <marker date="1588115248997" expanded="true" signature="306:620" ph="{...}" />
-                <marker date="1588115248997" expanded="true" signature="688:911" ph="{...}" />
-                <marker date="1588115248997" expanded="true" signature="980:1611" ph="{...}" />
+                <marker date="1588117070992" expanded="false" signature="6:121" ph="..." />
+                <marker date="1588117070992" expanded="true" signature="163:3104" ph="{...}" />
+                <marker date="1588117070992" expanded="true" signature="197:3102" ph="{...}" />
+                <marker date="1588117070992" expanded="true" signature="250:898" ph="{...}" />
+                <marker date="1588117070992" expanded="true" signature="310:415" ph="{...}" />
+                <marker date="1588117070992" expanded="true" signature="564:805" ph="{...}" />
+                <marker date="1588117070992" expanded="true" signature="952:1593" ph="{...}" />
+                <marker date="1588117070992" expanded="true" signature="1012:1102" ph="{...}" />
+                <marker date="1588117070992" expanded="true" signature="1251:1496" ph="{...}" />
+                <marker date="1588117070992" expanded="true" signature="1663:2158" ph="{...}" />
+                <marker date="1588117070992" expanded="true" signature="1727:2148" ph="{...}" />
+                <marker date="1588117070992" expanded="true" signature="1801:2134" ph="{...}" />
+                <marker date="1588117070992" expanded="true" signature="2224:2548" ph="/// Returns an estimate of the distance between the two given coordinates. ... " />
+                <marker date="1588117070992" expanded="true" signature="2658:3096" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -411,12 +352,12 @@
       <workItem from="1587764117055" duration="1387000" />
       <workItem from="1587987005147" duration="30316000" />
       <workItem from="1588071446840" duration="12383000" />
-      <workItem from="1588085542373" duration="14646000" />
+      <workItem from="1588085542373" duration="15260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207592000" />
+    <option name="totallyTimeSpent" value="208206000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +370,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1038" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49483353" visible="true" weight="0.421387" />
       <window_info id="Structure" order="1" sideWeight="0.5051665" side_tool="true" weight="0.31109762" />
@@ -445,7 +385,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Unit Tests" order="10" sideWeight="0.49867654" weight="0.42142025" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32130384" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.7217695" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.10799365" side_tool="true" weight="0.44121072" />
       <window_info anchor="bottom" id="Build" order="13" weight="0.33409873" />
       <window_info anchor="bottom" id="Errors In Solution" order="14" weight="0.32945284" />
@@ -1262,29 +1202,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/DifferenceTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-          <folding>
-            <marker date="1588117070992" expanded="false" signature="6:121" ph="..." />
-            <marker date="1588117070992" expanded="true" signature="163:3104" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="197:3102" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="250:898" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="310:415" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="564:805" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="952:1593" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="1012:1102" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="1251:1496" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="1663:2158" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="1727:2148" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="1801:2134" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="2224:2548" ph="/// Returns an estimate of the distance between the two given coordinates. ... " />
-            <marker date="1588117070992" expanded="true" signature="2658:3096" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1342,6 +1259,29 @@
             <marker date="1588117249617" expanded="true" signature="738:1605" ph="{...}" />
             <marker date="1588117249617" expanded="true" signature="870:964" ph="{...}" />
             <marker date="1588117249617" expanded="true" signature="1706:2169" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/DifferenceTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding>
+            <marker date="1588117070992" expanded="false" signature="6:121" ph="..." />
+            <marker date="1588117070992" expanded="true" signature="163:3104" ph="{...}" />
+            <marker date="1588117070992" expanded="true" signature="197:3102" ph="{...}" />
+            <marker date="1588117070992" expanded="true" signature="250:898" ph="{...}" />
+            <marker date="1588117070992" expanded="true" signature="310:415" ph="{...}" />
+            <marker date="1588117070992" expanded="true" signature="564:805" ph="{...}" />
+            <marker date="1588117070992" expanded="true" signature="952:1593" ph="{...}" />
+            <marker date="1588117070992" expanded="true" signature="1012:1102" ph="{...}" />
+            <marker date="1588117070992" expanded="true" signature="1251:1496" ph="{...}" />
+            <marker date="1588117070992" expanded="true" signature="1663:2158" ph="{...}" />
+            <marker date="1588117070992" expanded="true" signature="1727:2148" ph="{...}" />
+            <marker date="1588117070992" expanded="true" signature="1801:2134" ph="{...}" />
+            <marker date="1588117070992" expanded="true" signature="2224:2548" ph="/// Returns an estimate of the distance between the two given coordinates. ... " />
+            <marker date="1588117070992" expanded="true" signature="2658:3096" ph="{...}" />
           </folding>
         </state>
       </provider>

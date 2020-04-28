@@ -6,7 +6,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4BC94355-387
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7EBFD98F-BFEF-443C-82D8-823730465ED7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "geodesic-triangle-test", "geodesic-triangle-test\geodesic-triangle-test.csproj", "{26F1C04D-0BFE-49D3-B2F2-05AB5B63C919}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anyways.GeodesicTriangles.Test", "Anyways.GeodesicTriangles.Test\Anyways.GeodesicTriangles.Test.csproj", "{26F1C04D-0BFE-49D3-B2F2-05AB5B63C919}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

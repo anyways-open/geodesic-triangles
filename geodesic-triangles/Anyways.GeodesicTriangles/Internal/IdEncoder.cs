@@ -64,7 +64,7 @@ namespace Anyways.GeodesicTriangles.Internal
             // 2 bits to encode the octant
             // 2 bits per digit
             // A long has 64 bits, resulting in 30 identifiers that can be stored
-            if (id.Length > 30)
+            if (id.Length > 31)
             {
                 throw new ArgumentException("ID contains more then 30 digits, but saving to long only supports at most 30");
             }

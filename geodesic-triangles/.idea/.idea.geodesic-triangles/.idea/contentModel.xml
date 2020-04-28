@@ -32,7 +32,8 @@
           </e>
         </e>
       </e>
-      <e p="geodesic-triangle-test" t="IncludeRecursive">
+      <e p="Anyways.GeodesicTriangles.Test" t="IncludeRecursive">
+        <e p="Anyways.GeodesicTriangles.Test.csproj" t="IncludeRecursive" />
         <e p="ApiTest.cs" t="Include" />
         <e p="DifferenceTest.cs" t="Include" />
         <e p="IdEncoderTest.cs" t="Include" />
@@ -40,11 +41,10 @@
         <e p="WgsToQtmTest.cs" t="Include" />
         <e p="ZotTest.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="geodesic-triangle-test.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
-              <e p="geodesic-triangle-test.AssemblyInfo.cs" t="Include" />
+              <e p="Anyways.GeodesicTriangles.Test.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>

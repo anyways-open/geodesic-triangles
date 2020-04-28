@@ -3,7 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Contracts;
 using System.Runtime.CompilerServices;
 
-[assembly:InternalsVisibleTo("geodesic-triangle-test")]
+[assembly:InternalsVisibleTo("Anyways.GeodesicTriangles.Test")]
 namespace Anyways.GeodesicTriangles.Internal
 {
     internal struct Coordinate
@@ -21,7 +21,7 @@ namespace Anyways.GeodesicTriangles.Internal
                 throw new ArgumentException("Latitude out of range, it is " + lat);
             }
         }
-
+        
         [Pure]
         [SuppressMessage("ReSharper", "CompareOfFloatsByEqualityOperator")]
         public bool IsPole()

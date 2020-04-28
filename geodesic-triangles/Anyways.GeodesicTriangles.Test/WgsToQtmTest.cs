@@ -1,10 +1,9 @@
 using System;
 using System.Linq;
-using Anyways.GeodesicTriangles;
 using Anyways.GeodesicTriangles.Internal;
 using Xunit;
 
-namespace geodesic_triangle_test
+namespace Anyways.GeodesicTriangles.Test
 {
     public class WgsToQtmTest
     {
@@ -52,7 +51,18 @@ namespace geodesic_triangle_test
                 Assert.True(expectedId[i] == id[i],
                     $"Index {i} is different. Expected {expectedId[i]} but got {id[i]}");
             }
-        }
+/*
+
+            var triangles = new List<IEnumerable<(double, double)>>();
+            for (int i = 1; i < id.Count(); i++)
+            {
+                triangles.Add(
+                    id.ToList().GetRange(0, i).ToArray().EncodeLong().PolygonAround()
+                );
+            }
+
+            var geojson = triangles.Select(t => (t, "#00ff00")).ToList().ToGeoJson(_brugge);
+        */}
 
 
         [Fact]
@@ -213,7 +223,6 @@ namespace geodesic_triangle_test
         public void GenerateQTMId_Rio_CorrectId()
         {
             var id = _rio.GetId(20);
-            var triangles = QtmToWgs.GenerateAllTrianglesZot(id).Select(CoordinateExtensions.ToDegrees);
             var expectedId = new[]
             {
                 8, 0, 0, 2, 1, 1, 1, 2, 3, 0, 3, 2, 2, 0, 3, 1, 1, 1, 3, 3

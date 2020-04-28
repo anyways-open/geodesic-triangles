@@ -1,9 +1,8 @@
 using System;
-using Anyways.GeodesicTriangles;
 using Anyways.GeodesicTriangles.Internal;
 using Xunit;
 
-namespace geodesic_triangle_test
+namespace Anyways.GeodesicTriangles.Test
 {
     public class ZotTest
     {

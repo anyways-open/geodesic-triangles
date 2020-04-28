@@ -99,22 +99,38 @@ At this point, calculating the quadrant from a triangle can be done with Manhatt
 
 
 
+## Approximate sizes per precision level
+
+This table gives a rough indication of how big a triangle is on each precision level.
+The numbers are rounded, but can differ slightly between the triangles.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Digits of precision | Size of triangle (km²) | Size estimate
+--------------------+------------------------+------
+1                   | 64 000 000 | 1/8 of the earth
+2                   | 22 500 000 | a big continent
+3                   | 4 250 000 | a small continent
+4                   | 1 400 000 | a few big countries
+5                   | 310 000 | a big country
+6                   | 82 500 | a small country
+7                   | 20 000 | 
+8                   | 5 000 | a region containing multiple cities or a metropole as Paris or NY
+9                   | 1 250 | a big city such as brussles
+10                  | 	320 | a smaller city
+11                  | 80 | a village or multiple city districts
+12                  | 20 | a city district
+13                  | 5 | a city quarter
+14                  | 1.25 | quite few residential blocks
+15                  | 0.30 | a pair of residential blocks
+16                  | 0.08 | half a residential block
+17                  | 20 000m² | around 10 packed houses
+18                  | 5 000m² | a few houses
+19                  | 1 200m² | 
+20                  | 300m² | one house
+21                  | 75m² | a room
+22                  | 20m² | a very very tiny house
+23                  | 5m² | 
+24                  | 1.2m² | A garden table
+25                  | 0.25m² | 
 
 

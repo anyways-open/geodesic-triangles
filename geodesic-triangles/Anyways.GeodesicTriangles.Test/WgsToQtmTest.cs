@@ -51,18 +51,9 @@ namespace Anyways.GeodesicTriangles.Test
                 Assert.True(expectedId[i] == id[i],
                     $"Index {i} is different. Expected {expectedId[i]} but got {id[i]}");
             }
-/*
 
-            var triangles = new List<IEnumerable<(double, double)>>();
-            for (int i = 1; i < id.Count(); i++)
-            {
-                triangles.Add(
-                    id.ToList().GetRange(0, i).ToArray().EncodeLong().PolygonAround()
-                );
-            }
-
-            var geojson = triangles.Select(t => (t, "#00ff00")).ToList().ToGeoJson(_brugge);
-        */}
+           
+        }
 
 
         [Fact]

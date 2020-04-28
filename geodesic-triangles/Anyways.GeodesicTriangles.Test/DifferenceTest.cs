@@ -1,10 +1,53 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using Anyways.GeodesicTriangles.Internal;
 using Xunit;
 
 namespace Anyways.GeodesicTriangles.Test
 {
     public class DifferenceTest
     {
+        [Fact]
+        public void SizesTest()
+        {
+            var id = new List<int>()
+            {
+                1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+            };
+            var triangles = new List<IEnumerable<(double, double)>>();
+            string geojson;
+            for (int i = 1; i < id.Count(); i++)
+            {
+                triangles.Add(
+                    id.GetRange(0, i).ToArray().EncodeLong().PolygonAround()
+                );
+                geojson = triangles.Select(t => (t, "#00ff00")).ToList().ToGeoJson();
+            }
+
+            geojson = triangles.Select(t => (t, "#00ff00")).ToList().ToGeoJson();
+        }
+
+        [Fact]
+        public void SizesTestBrugge()
+        {
+            var id = new List<int>()
+            {
+                1, 3, 1, 1, 3, 1, 2, 0, 2, 2, 3, 0, 1, 3, 3, 3, 1, 1, 0, 2
+            };
+            var triangles = new List<IEnumerable<(double, double)>>();
+            string geojson;
+            for (int i = 1; i < id.Count(); i++)
+            {
+                triangles.Add(
+                    id.GetRange(0, i).ToArray().EncodeLong().PolygonAround()
+                );
+                geojson = triangles.Select((t,j) => (t, "#00ff"+j)).ToList().ToGeoJson();
+            }
+
+            geojson = triangles.Select((t,j) => (t, "#00ff"+j)).ToList().ToGeoJson();
+        }
+
         [Fact]
         public void ToQTM_FromQTM_DifferenceIsSmall()
         {
@@ -21,7 +64,7 @@ namespace Anyways.GeodesicTriangles.Test
                 }
             }
         }
-        
+
         private const double _radiusOfEarth = 6371000;
 
         /// <summary>
@@ -29,7 +72,7 @@ namespace Anyways.GeodesicTriangles.Test
         /// Stolen from https://github.com/itinero/routing/blob/1764afc75db43a1459789592de175283f642123f/src/Itinero/LocalGeo/Coordinate.cs
         /// </summary>
         /// <remarks>Accuracy decreases with distance.</remarks>
-        public static float DistanceEstimateInMeter((double Lon, double Lat) c1, (double Lon, double Lat)  c2)
+        public static float DistanceEstimateInMeter((double Lon, double Lat) c1, (double Lon, double Lat) c2)
         {
             var lat1Rad = c1.Lat / 180d * Math.PI;
             var lon1Rad = c1.Lon / 180d * Math.PI;

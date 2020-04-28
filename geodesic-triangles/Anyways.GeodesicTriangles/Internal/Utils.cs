@@ -32,6 +32,8 @@ namespace Anyways.GeodesicTriangles.Internal
                 linesJson.Add(
                     " { \"type\": \"Feature\", \"properties\": {\"fill-opacity\": 0.05,\"stroke-width\":0.8,\"stroke-colour\":\"#000000\", \"fill\": \"" +
                     fill +
+                    "\", \"debug\": \"" +
+                    fill +
                     "\"}, \"geometry\": { \"type\": \"Polygon\", \"coordinates\": ["
                     + coordinates + "]} }");
             }

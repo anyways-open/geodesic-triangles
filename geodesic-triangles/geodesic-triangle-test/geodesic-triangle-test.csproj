@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\geodesic-triangles\geodesic-triangles.csproj" />
+      <ProjectReference Include="..\Anyways.GeodesicTriangles\Anyways.GeodesicTriangles.csproj" />
     </ItemGroup>
 
 </Project>

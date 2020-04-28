@@ -11,8 +11,31 @@
     <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Anyways.GeodesicTriangles" t="IncludeRecursive">
+        <e p="Anyways.GeodesicTriangles.csproj" t="IncludeRecursive" />
+        <e p="GeodesicTriangles.cs" t="Include" />
+        <e p="Internal" t="Include">
+          <e p="Coordinate.cs" t="Include" />
+          <e p="IdEncoder.cs" t="Include" />
+          <e p="QtmToWgs.cs" t="Include" />
+          <e p="RadianCoordinate.cs" t="Include" />
+          <e p="Utils.cs" t="Include" />
+          <e p="WgsToQtm.cs" t="Include" />
+          <e p="ZotCoordinate.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Anyways.GeodesicTriangles.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="geodesic-triangle-test" t="IncludeRecursive">
+        <e p="ApiTest.cs" t="Include" />
         <e p="DifferenceTest.cs" t="Include" />
+        <e p="IdEncoderTest.cs" t="Include" />
         <e p="QtmToWgsTest.cs" t="Include" />
         <e p="WgsToQtmTest.cs" t="Include" />
         <e p="ZotTest.cs" t="Include" />
@@ -26,31 +49,10 @@
           </e>
         </e>
       </e>
-      <e p="geodesic-triangles" t="IncludeRecursive">
-        <e p="Coordinate.cs" t="Include" />
-        <e p="QtmToWgs.cs" t="Include" />
-        <e p="RadianCoordinate.cs" t="Include" />
-        <e p="Triangle.cs" t="Include" />
-        <e p="Utils.cs" t="Include" />
-        <e p="WgsToQtm.cs" t="Include" />
-        <e p="ZotCoordinate.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="geodesic-triangles.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="geodesic-triangles.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-      </e>
       <e p="geodesic-triangles.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="src" t="Include" />
       <e p="test" t="Include" />
-      <e p="tests" t="IncludeRecursive">
-        <e p="tests.csproj" t="IncludeRecursive" />
-      </e>
     </e>
   </component>
 </project>

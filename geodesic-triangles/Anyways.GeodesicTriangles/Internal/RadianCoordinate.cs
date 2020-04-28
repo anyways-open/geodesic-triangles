@@ -1,13 +1,14 @@
 using System;
 
-namespace geodesic_triangles
+namespace Anyways.GeodesicTriangles.Internal
 {
-    public class RadianCoordinate
+    internal class RadianCoordinate
     {
         public readonly double Lon;
         public readonly double Lat;
 
-        public RadianCoordinate(double lon, double lat)
+        public 
+            RadianCoordinate(double lon, double lat)
         {
             Lon = lon;
             Lat = lat;

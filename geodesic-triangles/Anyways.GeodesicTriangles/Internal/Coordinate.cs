@@ -1,10 +1,12 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Contracts;
+using System.Runtime.CompilerServices;
 
-namespace geodesic_triangles
+[assembly:InternalsVisibleTo("geodesic-triangle-test")]
+namespace Anyways.GeodesicTriangles.Internal
 {
-    public struct Coordinate
+    internal struct Coordinate
     {
         public readonly double Lon;
         public readonly double Lat;
@@ -84,12 +86,13 @@ namespace geodesic_triangles
             {
                 lon += 360;
             }
+
             return new RadianCoordinate(lon * Math.PI / 180, Lat * Math.PI / 180);
         }
 
-        public bool IsNan()
+        public (double lon, double lat) AsTuple()
         {
-            return double.IsNaN(Lon) || double.IsNegative(Lat);
+            return (Lon, Lat);
         }
     }
 }

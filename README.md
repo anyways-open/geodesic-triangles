@@ -137,3 +137,4 @@ Digits of precision | Size of triangle (km²) 	| Size estimate
 ## Attribution
 
 Images in this readme are encoded with Geojson.io, the background map is by [OpenStreetMap.org], styled by [Mapbox.com]
+Logo 'Sphere' by Lluisa Iborra from the Noun Project.

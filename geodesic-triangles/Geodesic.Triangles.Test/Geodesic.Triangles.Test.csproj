@@ -4,8 +4,6 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
 
         <IsPackable>false</IsPackable>
-
-        <RootNamespace>Anyways.GeodesicTriangles.Test</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

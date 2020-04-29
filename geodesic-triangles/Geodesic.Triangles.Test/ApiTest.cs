@@ -13,14 +13,14 @@ namespace Anyways.GeodesicTriangles.Test
         public void Encode_Brugge_DecodedIsNear()
         {
             var c = _brugge;
-            var id = c.TriangleId();
-            Assert.Equal(2548345555578004455u, id);
+            var id = c.TriangleId(30);
+            Assert.Equal(2548345555578004455ul, id);
             var c0 = id.TriangleCenterPoint();
 
             Assert.True(Math.Abs(c.lat - c0.lat) < _tolerance);
             Assert.True(Math.Abs(c.lon - c0.lon) < _tolerance);
         }
-        
+
         [Fact]
         public void Encode_CloseBy_SameId()
         {
@@ -38,8 +38,7 @@ namespace Anyways.GeodesicTriangles.Test
             var c = _brugge;
             var geojson = c.TriangleId(16).PolygonAround().ToGeoJson();
             var expected =
-                "{ \"type\": \"FeatureCollection\", \"features\": [ { \"type\": \"Feature\", \"properties\": {\"fill-opacity\": 0.1,\"stroke-width\":0.5,\"stroke-colour\":\"#000000\", \"fill\": \"#ff0000\"}, \"geometry\": { \"type\": \"Polygon\", \"coordinates\": [[[3.2197085228698183, 51.21826171874999], [3.2239810243833245, 51.2155151367187], [3.2194681955917686, 51.21551513671877], [3.2197085228698183, 51.21826171874999]]]} }]}";
-
+                "{ \"type\": \"FeatureCollection\", \"features\": [ { \"type\": \"Feature\", \"properties\": {}, \"geometry\": { \"type\": \"Polygon\", \"coordinates\": [[[3.2197085228698183, 51.21826171874999], [3.2239810243833245, 51.2155151367187], [3.2194681955917686, 51.21551513671877], [3.2197085228698183, 51.21826171874999]]]} }]}";
             Assert.Equal(expected, geojson);
         }
     }

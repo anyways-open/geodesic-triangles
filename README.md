@@ -107,7 +107,7 @@ The numbers are rounded, but can differ slightly between the triangles.
 
 
 Digits of precision | Size of triangle (km²) | Size estimate
---------------------+------------------------+------
+------------------- | ---------------------- | ------
 1                   | 64 000 000 | 1/8 of the earth
 2                   | 22 500 000 | a big continent
 3                   | 4 250 000 | a small continent

@@ -1,6 +1,6 @@
 using System;
 
-namespace Anyways.GeodesicTriangles.Internal
+namespace Geodesic.Triangles.Internal
 {
     /// <summary>
     /// Converts an QTM-id into a int32 or int64number
@@ -57,7 +57,7 @@ namespace Anyways.GeodesicTriangles.Internal
             }
             return l;
         }
-        public static ulong EncodeLong(this int[] id)
+        public static ulong EncodeLong(this int[] id, uint dropPrecision = 0)
         {
             // We need:
             // One bit indicating the start
@@ -71,7 +71,7 @@ namespace Anyways.GeodesicTriangles.Internal
 
             var l = (ulong) (id[0] - 1) | 8;
 
-            for (int i = 1; i < id.Length; i++)
+            for (int i = 1; i < id.Length - dropPrecision; i++)
             {
                 l = (l << 2) | (ulong) id[i];
             }

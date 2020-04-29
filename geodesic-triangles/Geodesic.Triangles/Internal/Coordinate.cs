@@ -4,7 +4,7 @@ using System.Diagnostics.Contracts;
 using System.Runtime.CompilerServices;
 
 [assembly:InternalsVisibleTo("Geodesic.Triangles.Test")]
-namespace Anyways.GeodesicTriangles.Internal
+namespace Geodesic.Triangles.Internal
 {
     internal struct Coordinate
     {

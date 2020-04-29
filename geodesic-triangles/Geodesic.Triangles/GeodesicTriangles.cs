@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Anyways.GeodesicTriangles.Internal;
+using Geodesic.Triangles.Internal;
 
-namespace Anyways.GeodesicTriangles
+namespace Geodesic.Triangles
 {
     /// <summary>
     ///
@@ -18,11 +18,11 @@ namespace Anyways.GeodesicTriangles
         /// <param name="coordinate">The WGS84-coordinate, in (lon, lat) format</param>
         /// <param name="precision">How much digits are used. The number of bits used is (precision *2 ) + 2</param>
         /// <returns></returns>
-        public static ulong TriangleId(this (double lon, double lat) coordinate, int precision = 31)
+        public static ulong TriangleId(this (double lon, double lat) coordinate, int precision = 30)
         {
-            if (precision > 31)
+            if (precision > 30)
             {
-                throw new ArgumentException("precision to big: at most 31 precision can be put into an int64");
+                throw new ArgumentException("precision to big: at most 30 precision can be put into an int64");
             }
 
             return coordinate.GetId(precision).EncodeLong();
@@ -132,6 +132,41 @@ namespace Anyways.GeodesicTriangles
             }
 
             return coordinates;
+        }
+
+        public static ulong ParentTriangle(this ulong id)
+        {
+            var idArr = id.Decode();
+            return idArr.EncodeLong(1);
+        }
+        
+        /// <summary>
+        /// Determines if the triangle 'container' contains the triangle 'containee'
+        /// </summary>
+        public static bool Contains(this ulong container, ulong containee)
+        {
+            if (container < containee)
+            {
+                // THe container is smaller then the containee
+                return false;
+            }
+
+            var idContainer = container.Decode();
+            var idContainee = containee.Decode();
+            if (idContainer.Length < idContainee.Length)
+            {
+                return false;
+            }
+
+            for (int i = 0; i < idContainer.Length; i++)
+            {
+                if (idContainer[i] != idContainee[i])
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
 
         /// <summary>

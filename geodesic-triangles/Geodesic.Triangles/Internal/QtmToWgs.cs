@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 // ReSharper disable InconsistentNaming
 
-namespace Anyways.GeodesicTriangles.Internal
+namespace Geodesic.Triangles.Internal
 {
     internal static class QtmToWgs
     {

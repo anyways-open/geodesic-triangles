@@ -1,6 +1,6 @@
 using System;
 
-namespace Anyways.GeodesicTriangles.Internal
+namespace Geodesic.Triangles.Internal
 {
     internal class RadianCoordinate
     {

@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54057c47-40b8-42fb-acce-ec8ab7c54c73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/DifferenceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/DifferenceTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/WgsToQtmTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/WgsToQtmTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/Utils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/Utils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.geodesic-triangles/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.geodesic-triangles/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.geodesic-triangles/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.geodesic-triangles/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles.Demo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles.Demo/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles.Test/ApiTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles.Test/ApiTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles.Test/DifferenceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles.Test/DifferenceTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles.Test/IdEncoderTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles.Test/IdEncoderTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles.Test/QtmToWgsTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles.Test/QtmToWgsTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles.Test/WgsToQtmTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles.Test/WgsToQtmTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles/GeodesicTriangles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles/GeodesicTriangles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles/Internal/Coordinate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles/Internal/Coordinate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles/Internal/IdEncoder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles/Internal/IdEncoder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles/Internal/QtmToWgs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles/Internal/QtmToWgs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles/Internal/RadianCoordinate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles/Internal/RadianCoordinate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles/Internal/Utils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles/Internal/Utils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles/Internal/WgsToQtm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles/Internal/WgsToQtm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles/Internal/ZotCoordinate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles/Internal/ZotCoordinate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geodesic-triangles.sln" beforeDir="false" afterPath="$PROJECT_DIR$/geodesic-triangles.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,100 +27,214 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="geodesic-triangles" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/WgsToQtmTest.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="46" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-              <folding>
-                <marker date="1588116628860" expanded="true" signature="6:87" ph="..." />
-                <marker date="1588116628860" expanded="true" signature="129:8270" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="161:8268" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="827:877" ph="/* OCt 5 ... */" />
-                <marker date="1588116628860" expanded="true" signature="1427:1921" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="1525:1615" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="1728:1898" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="1998:2482" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="2099:2189" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="2302:2472" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="2554:3038" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="2655:2745" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="2858:3028" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="3113:3592" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="3412:3582" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="3667:4159" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="3775:3865" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="3922:4092" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="4232:4717" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="4334:4424" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="4537:4707" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="4788:5270" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="4887:4977" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="5090:5260" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="5343:5840" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="5457:5547" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="5660:5830" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="5910:6391" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="6008:6098" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="6211:6381" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="6461:6942" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="6559:6649" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="6762:6932" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="7008:7486" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="7103:7193" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="7306:7476" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="7562:7810" ph="{...}" />
-                <marker date="1588116628860" expanded="true" signature="7934:8262" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/Utils.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-              <folding>
-                <marker date="1588117249617" expanded="false" signature="6:52" ph="..." />
-                <marker date="1588117249617" expanded="true" signature="98:2340" ph="{...}" />
-                <marker date="1588117249617" expanded="true" signature="132:2338" ph="{...}" />
-                <marker date="1588117249617" expanded="true" signature="241:454" ph="{...}" />
-                <marker date="1588117249617" expanded="true" signature="356:402" ph="{...}" />
-                <marker date="1588117249617" expanded="true" signature="632:2332" ph="{...}" />
-                <marker date="1588117249617" expanded="true" signature="738:1605" ph="{...}" />
-                <marker date="1588117249617" expanded="true" signature="870:964" ph="{...}" />
-                <marker date="1588117249617" expanded="true" signature="1706:2169" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/DifferenceTest.cs">
+        <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/Utils.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+            <state relative-caret-position="105">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding>
-                <marker date="1588117070992" expanded="false" signature="6:121" ph="..." />
-                <marker date="1588117070992" expanded="true" signature="163:3104" ph="{...}" />
-                <marker date="1588117070992" expanded="true" signature="197:3102" ph="{...}" />
-                <marker date="1588117070992" expanded="true" signature="250:898" ph="{...}" />
-                <marker date="1588117070992" expanded="true" signature="310:415" ph="{...}" />
-                <marker date="1588117070992" expanded="true" signature="564:805" ph="{...}" />
-                <marker date="1588117070992" expanded="true" signature="952:1593" ph="{...}" />
-                <marker date="1588117070992" expanded="true" signature="1012:1102" ph="{...}" />
-                <marker date="1588117070992" expanded="true" signature="1251:1496" ph="{...}" />
-                <marker date="1588117070992" expanded="true" signature="1663:2158" ph="{...}" />
-                <marker date="1588117070992" expanded="true" signature="1727:2148" ph="{...}" />
-                <marker date="1588117070992" expanded="true" signature="1801:2134" ph="{...}" />
-                <marker date="1588117070992" expanded="true" signature="2224:2548" ph="/// Returns an estimate of the distance between the two given coordinates. ... " />
-                <marker date="1588117070992" expanded="true" signature="2658:3096" ph="{...}" />
+                <marker date="1588168526210" expanded="false" signature="6:52" ph="..." />
+                <marker date="1588168526210" expanded="true" signature="91:2059" ph="{...}" />
+                <marker date="1588168526210" expanded="true" signature="125:2057" ph="{...}" />
+                <marker date="1588168526210" expanded="true" signature="365:2051" ph="{...}" />
+                <marker date="1588168526210" expanded="true" signature="477:1324" ph="{...}" />
+                <marker date="1588168526210" expanded="true" signature="609:703" ph="{...}" />
+                <marker date="1588168526210" expanded="true" signature="1425:1888" ph="{...}" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Test/DifferenceTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <folding>
+                <marker date="1588166709902" expanded="true" signature="6:114" ph="..." />
+                <marker date="1588166709902" expanded="true" signature="149:4625" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="183:4623" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="236:952" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="296:401" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="550:705" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="775:862" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="1006:1711" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="1066:1156" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="1305:1460" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="1529:1616" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="1763:3114" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="1828:2053" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="2204:3044" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="2322:2533" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="2602:3030" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="2871:2963" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="3184:3679" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="3248:3669" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="3322:3655" ph="{...}" />
+                <marker date="1588166709902" expanded="true" signature="3745:4069" ph="/// Returns an estimate of the distance between the two given coordinates. ... " />
+                <marker date="1588166709902" expanded="true" signature="4179:4617" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/GeodesicTriangles.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-93">
+              <caret line="142" selection-start-line="142" selection-end-line="142" />
+              <folding>
+                <marker date="1588167947443" expanded="true" signature="6:101" ph="..." />
+                <marker date="1588167947443" expanded="true" signature="131:8753" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="138:334" ph="/// ... " />
+                <marker date="1588167947443" expanded="true" signature="376:8751" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="391:752" ph="/// Converts a coordinate into a QTM-id, with 31 (or less) quadrants precision. ... " />
+                <marker date="1588167947443" expanded="true" signature="853:1107" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="895:1035" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="1117:1556" ph="/// Converts a coordinate into a QTM-id, with 15 (or less) quadrants precision. ... " />
+                <marker date="1588167947443" expanded="true" signature="1658:1958" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="1700:1887" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="1968:2225" ph="/// Converts a QTM-id into a coordinate, by returning the center point of the represented triangle. ... " />
+                <marker date="1588167947443" expanded="true" signature="2306:2378" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="2388:2645" ph="/// Converts a QTM-id into a coordinate, by returning the center point of the represented triangle. ... " />
+                <marker date="1588167947443" expanded="true" signature="2727:2842" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="2852:3306" ph="/// Gives the triangle that contains this point, for the given precision. ... " />
+                <marker date="1588167947443" expanded="true" signature="3445:3519" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="3529:3828" ph="/// Gives the triangle that contains the given octant. ... " />
+                <marker date="1588167947443" expanded="true" signature="3922:3992" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="4002:4444" ph="/// Gives the triangle that is represented by this identifier ... " />
+                <marker date="1588167947443" expanded="true" signature="4533:4600" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="4610:5064" ph="/// Gives the triangle that contains this point, for the given precision. ... " />
+                <marker date="1588167947443" expanded="true" signature="5152:5219" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="5310:6088" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="5635:5859" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="5876:6045" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="6147:6244" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="6262:6383" ph="/// Determines if the triangle 'container' contains the triangle 'containee' ... " />
+                <marker date="1588167947443" expanded="true" signature="6458:7090" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="6507:6628" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="6786:6844" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="6902:7054" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="6970:7040" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="7100:7399" ph="/// This method is mostly meant to give some insight into the process, but should not be used in production. ... " />
+                <marker date="1588167947443" expanded="true" signature="7577:7643" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="7653:7952" ph="/// This method is mostly meant to give some insight into the process, but should not be used in production. ... " />
+                <marker date="1588167947443" expanded="true" signature="8089:8212" ph="{...}" />
+                <marker date="1588167947443" expanded="true" signature="8222:8521" ph="/// This method is mostly meant to give some insight into the process, but should not be used in production. ... " />
+                <marker date="1588167947443" expanded="true" signature="8644:8745" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/WgsToQtm.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+              <folding>
+                <marker date="1588166709910" expanded="true" signature="52:6706" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="89:6704" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="159:234" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="386:682" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="750:827" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="893:974" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="1066:1190" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="1262:3148" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="1429:1511" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="1532:1614" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="1733:1789" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="1817:1929" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="1956:2068" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="2406:3114" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="2596:2851" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="2646:2721" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="2758:2833" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="2880:3071" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="3159:4044" ph="/// Determines in which quadrant of the triangle the point lies, where p0, p1 and p2 are corners of the triangle ... " />
+                <marker date="1588166709910" expanded="true" signature="4319:6698" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="4691:4783" ph="/* Manhattan distance is &lt; s/2 from the pole point ... */" />
+                <marker date="1588166709910" expanded="true" signature="4813:5330" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="5356:5992" ph="{...}" />
+                <marker date="1588166709910" expanded="true" signature="5387:5564" ph="/* The centerpoint moves a bit, halfway between eastmost and polePointing ... */" />
+                <marker date="1588166709910" expanded="true" signature="5679:5752" ph="/* Eastmost triangle ... */" />
+                <marker date="1588166709910" expanded="true" signature="6018:6333" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/Coordinate.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding>
+                <marker date="1588166709878" expanded="true" signature="6:127" ph="..." />
+                <marker date="1588166709878" expanded="true" signature="223:2378" ph="{...}" />
+                <marker date="1588166709878" expanded="true" signature="256:2376" ph="{...}" />
+                <marker date="1588166709878" expanded="true" signature="385:603" ph="{...}" />
+                <marker date="1588166709878" expanded="true" signature="481:593" ph="{...}" />
+                <marker date="1588166709878" expanded="true" signature="732:796" ph="{...}" />
+                <marker date="1588166709878" expanded="true" signature="854:923" ph="{...}" />
+                <marker date="1588166709878" expanded="true" signature="1048:1159" ph="{...}" />
+                <marker date="1588166709878" expanded="true" signature="1202:1287" ph="{...}" />
+                <marker date="1588166709878" expanded="true" signature="1297:1463" ph="/// Returns a new coordinate which wraps the longitude onto the regular -180 -&gt; 180 range ... " />
+                <marker date="1588166709878" expanded="true" signature="1526:1787" ph="{...}" />
+                <marker date="1588166709878" expanded="true" signature="1590:1646" ph="{...}" />
+                <marker date="1588166709878" expanded="true" signature="1675:1731" ph="{...}" />
+                <marker date="1588166709878" expanded="true" signature="1837:2011" ph="{...}" />
+                <marker date="1588166709878" expanded="true" signature="1899:1955" ph="{...}" />
+                <marker date="1588166709878" expanded="true" signature="2056:2268" ph="{...}" />
+                <marker date="1588166709878" expanded="true" signature="2118:2174" ph="{...}" />
+                <marker date="1588166709878" expanded="true" signature="2319:2370" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Test/Geodesic.Triangles.Test.csproj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-12" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/IdEncoder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+              <folding>
+                <marker date="1588167544110" expanded="true" signature="52:2698" ph="{...}" />
+                <marker date="1588167544110" expanded="true" signature="59:146" ph="/// Converts an QTM-id into a int32 or int64number ... " />
+                <marker date="1588167544110" expanded="true" signature="182:2696" ph="{...}" />
+                <marker date="1588167544110" expanded="true" signature="236:297" ph="{...}" />
+                <marker date="1588167544110" expanded="true" signature="347:1309" ph="{...}" />
+                <marker date="1588167544110" expanded="true" signature="434:776" ph="/* 7 = 111 ... */" />
+                <marker date="1588167544110" expanded="true" signature="835:892" ph="{...}" />
+                <marker date="1588167544110" expanded="true" signature="1099:1275" ph="{...}" />
+                <marker date="1588167544110" expanded="true" signature="1361:1974" ph="{...}" />
+                <marker date="1588167544110" expanded="true" signature="1384:1592" ph="/* We need: ... */" />
+                <marker date="1588167544110" expanded="true" signature="1624:1776" ph="{...}" />
+                <marker date="1588167544110" expanded="true" signature="1869:1942" ph="{...}" />
+                <marker date="1588167544110" expanded="true" signature="2052:2690" ph="{...}" />
+                <marker date="1588167544110" expanded="true" signature="2075:2287" ph="/* We need: ... */" />
+                <marker date="1588167544110" expanded="true" signature="2319:2472" ph="{...}" />
+                <marker date="1588167544110" expanded="true" signature="2583:2657" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Demo/Geodesic.Triangles.Demo.csproj">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -136,10 +264,13 @@
       <find>Anchorage</find>
       <find>NewYork</find>
       <find>Heide</find>
+      <find />
+      <find>3.6591602,51.0136387,</find>
       <find>&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>LineString</replace>
+      <replace>,</replace>
       <replace>\&quot;</replace>
     </replaceStrings>
   </component>
@@ -147,37 +278,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/ZotCoordinate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/QtmToWgs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3A2B7B12-6BCA-4004-9A65-DE1C10C63830/ee/25c5fa6a/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/1c/bd712047/TestInvoker`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ApiTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CDAE4105-7E89-4723-8979-C3C1D3936A03/76/5686e6b2/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/RadianCoordinate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/Coordinate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/Utils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/71/6ffd196d/ExecutionTimer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CDAE4105-7E89-4723-8979-C3C1D3936A03/6d/aeb7d2f7/Math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CDAE4105-7E89-4723-8979-C3C1D3936A03/37/740b3378/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/QtmToWgsTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ZotTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/WgsToQtmTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/IdEncoderTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/ZotCoordinate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Geodesic.Triangles.Test/QtmToWgsTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/QtmToWgs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3A2B7B12-6BCA-4004-9A65-DE1C10C63830/ee/25c5fa6a/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Geodesic.Triangles.Test/WgsToQtmTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Geodesic.Triangles.Demo/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/1c/bd712047/TestInvoker`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Geodesic.Triangles.Test/IdEncoderTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Geodesic.Triangles.Test/ApiTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C07BEBAD-2F5C-4B9A-910F-ADE5195DDC5F/29/e990e939/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/IdEncoder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/GeodesicTriangles.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/WgsToQtm.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/DifferenceTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CDAE4105-7E89-4723-8979-C3C1D3936A03/76/5686e6b2/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/IdEncoder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/RadianCoordinate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Geodesic.Triangles/GeodesicTriangles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/WgsToQtm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Geodesic.Triangles.Test/DifferenceTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/Coordinate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/Utils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C07BEBAD-2F5C-4B9A-910F-ADE5195DDC5F/90/e8b03621/Utilities.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/geodesic-triangles.sln" />
         <option value="$PROJECT_DIR$/geodesic-triangles/Class1.cs" />
         <option value="$PROJECT_DIR$/geodesic-triangle-test/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/geodesic-triangle-test/QtmToWgs.cs" />
@@ -208,15 +335,27 @@
         <option value="$PROJECT_DIR$/geodesic-triangle-test/DifferenceTest.cs" />
         <option value="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" />
         <option value="$PROJECT_DIR$/geodesic-triangle-test/ApiTest.cs" />
-        <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/IdEncoder.cs" />
-        <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles/GeodesicTriangles.cs" />
         <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/Coordinate.cs" />
         <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ApiTest.cs" />
         <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/QtmToWgsTest.cs" />
         <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/WgsToQtmTest.cs" />
-        <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/DifferenceTest.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
+        <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles/GeodesicTriangles.cs" />
+        <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/DifferenceTest.cs" />
         <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/Utils.cs" />
+        <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles.Demo/FietsstallingenGent.csv.cs" />
+        <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles.Demo/FietsstallingenGent.csv" />
+        <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles.Demo/Example.geojson" />
+        <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles.Demo/Program.cs" />
+        <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/IdEncoder.cs" />
+        <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles/Anyways.GeodesicTriangles.csproj" />
+        <option value="$PROJECT_DIR$/Geodesic.Triangles.Test/Geodesic.Triangles.Test.csproj" />
+        <option value="$PROJECT_DIR$/Anyways.GeodesicTriangles.Demo/Anyways.GeodesicTriangles.Demo.csproj" />
+        <option value="$PROJECT_DIR$/Geodesic.Triangles.Test/ApiTest.cs" />
+        <option value="$PROJECT_DIR$/Geodesic.Triangles.Test/DifferenceTest.cs" />
+        <option value="$PROJECT_DIR$/Geodesic.Triangles/Internal/IdEncoder.cs" />
+        <option value="$PROJECT_DIR$/Geodesic.Triangles/GeodesicTriangles.cs" />
+        <option value="$PROJECT_DIR$/Geodesic.Triangles/Internal/Utils.cs" />
       </list>
     </option>
   </component>
@@ -243,12 +382,32 @@
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="geodesic-triangles" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="geodesic-triangles" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Geodesic.Triangles" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="geodesic-triangles" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Geodesic.Triangles" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Internal" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="geodesic-triangles" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="test" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="geodesic-triangles" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="test" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Geodesic.Triangles.Test" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -273,7 +432,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -287,7 +446,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.tests">
+  <component name="RunManager" selected=".NET Project.Anyways.GeodesicTriangles.Demo">
+    <configuration name="Anyways.GeodesicTriangles.Demo" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Geodesic.Triangles.Demo/Geodesic.Triangles.Demo.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -326,6 +503,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue=".NET Project.Anyways.GeodesicTriangles.Demo" />
         <item itemvalue=".NET Project.tests" />
       </list>
     </recent_temporary>
@@ -352,12 +530,13 @@
       <workItem from="1587764117055" duration="1387000" />
       <workItem from="1587987005147" duration="30316000" />
       <workItem from="1588071446840" duration="12383000" />
-      <workItem from="1588085542373" duration="15260000" />
+      <workItem from="1588085542373" duration="16971000" />
+      <workItem from="1588159669945" duration="8790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208206000" />
+    <option name="totallyTimeSpent" value="218707000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,25 +548,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1038" extended-state="6" />
+    <frame x="-6" y="0" width="1692" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49483353" visible="true" weight="0.421387" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4959255" visible="true" weight="0.23953912" />
       <window_info id="Structure" order="1" sideWeight="0.5051665" side_tool="true" weight="0.31109762" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5040745" side_tool="true" weight="0.421387" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2759022" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.89200634" weight="0.3620489" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4098737" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.89200634" weight="0.46383467" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32942554" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.3282887" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Unit Tests" order="10" sideWeight="0.49867654" weight="0.42142025" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.7217695" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" sideWeight="0.49867654" visible="true" weight="0.35017222" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3444317" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.10799365" side_tool="true" weight="0.44121072" />
-      <window_info anchor="bottom" id="Build" order="13" weight="0.33409873" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.30195177" />
       <window_info anchor="bottom" id="Errors In Solution" order="14" weight="0.32945284" />
       <window_info anchor="bottom" id="LuaJ" order="15" weight="0.32945284" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -406,309 +586,208 @@
           <option name="timeStamp" value="1" />
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ZotTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs</url>
           <line>155</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="18">
-            <startOffsets>
-              <option value="5153" />
-            </startOffsets>
-            <endOffsets>
-              <option value="5154" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="18" />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ZotTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs</url>
           <line>19</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="16">
-            <startOffsets>
-              <option value="607" />
-            </startOffsets>
-            <endOffsets>
-              <option value="672" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="16" />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ZotTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs</url>
           <line>28</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="26">
-            <startOffsets>
-              <option value="950" />
-            </startOffsets>
-            <endOffsets>
-              <option value="997" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="26" />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ZotTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs</url>
           <line>57</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="42">
-            <startOffsets>
-              <option value="2031" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2066" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="42" />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ZotTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs</url>
           <line>53</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="41">
-            <startOffsets>
-              <option value="1750" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1790" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="41" />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ZotTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs</url>
           <line>35</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="33">
-            <startOffsets>
-              <option value="1149" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1184" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="33" />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ZotTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs</url>
           <line>77</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="64">
-            <startOffsets>
-              <option value="2626" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2649" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="64" />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ZotTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs</url>
           <line>176</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="115">
-            <startOffsets>
-              <option value="5758" />
-            </startOffsets>
-            <endOffsets>
-              <option value="5815" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="115" />
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/WgsToQtmTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/WgsToQtmTest.cs</url>
           <line>234</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/WgsToQtmTest.cs" initialLine="157">
-            <startOffsets>
-              <option value="7740" />
-            </startOffsets>
-            <endOffsets>
-              <option value="7800" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/WgsToQtmTest.cs" initialLine="157" />
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/WgsToQtmTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/WgsToQtmTest.cs</url>
           <line>245</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/WgsToQtmTest.cs" initialLine="158">
-            <startOffsets>
-              <option value="8147" />
-            </startOffsets>
-            <endOffsets>
-              <option value="8195" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/WgsToQtmTest.cs" initialLine="158" />
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ZotTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs</url>
           <line>93</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="80">
-            <startOffsets>
-              <option value="3189" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3246" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="80" />
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/WgsToQtmTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/WgsToQtmTest.cs</url>
           <line>216</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/WgsToQtmTest.cs" initialLine="60">
-            <startOffsets>
-              <option value="7068" />
-            </startOffsets>
-            <endOffsets>
-              <option value="7194" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/WgsToQtmTest.cs" initialLine="60" />
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ZotTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs</url>
           <line>43</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="41">
-            <startOffsets>
-              <option value="1402" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1443" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="41" />
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ZotTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs</url>
           <line>137</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="135">
-            <startOffsets>
-              <option value="4673" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4726" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ZotTest.cs" initialLine="135" />
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/WgsToQtmTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/WgsToQtmTest.cs</url>
           <line>182</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/WgsToQtmTest.cs" initialLine="48">
-            <startOffsets>
-              <option value="5973" />
-            </startOffsets>
-            <endOffsets>
-              <option value="6099" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/WgsToQtmTest.cs" initialLine="48" />
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/WgsToQtmTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/WgsToQtmTest.cs</url>
           <line>148</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/WgsToQtmTest.cs" initialLine="47">
-            <startOffsets>
-              <option value="4852" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4978" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/WgsToQtmTest.cs" initialLine="47" />
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/IdEncoder.cs</url>
-          <line>29</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangles/IdEncoder.cs" initialLine="24">
-            <startOffsets>
-              <option value="911" />
-            </startOffsets>
-            <endOffsets>
-              <option value="939" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="114" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/IdEncoderTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/IdEncoderTest.cs</url>
           <line>12</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/IdEncoderTest.cs" initialLine="11">
-            <startOffsets>
-              <option value="245" />
-            </startOffsets>
-            <endOffsets>
-              <option value="273" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/IdEncoderTest.cs" initialLine="11" />
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/IdEncoderTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/IdEncoderTest.cs</url>
           <line>60</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/IdEncoderTest.cs" initialLine="59">
-            <startOffsets>
-              <option value="1643" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1663" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/IdEncoderTest.cs" initialLine="59" />
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ApiTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/ApiTest.cs</url>
           <line>44</line>
-          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ApiTest.cs" initialLine="30">
-            <startOffsets>
-              <option value="1610" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1611" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/geodesic-triangle-test/ApiTest.cs" initialLine="30" />
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/WgsToQtmTest.cs</url>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/WgsToQtmTest.cs</url>
           <line>55</line>
           <properties documentPath="$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/WgsToQtmTest.cs" initialLine="64">
             <startOffsets>
-              <option value="1920" />
+              <option value="1906" />
             </startOffsets>
             <endOffsets>
-              <option value="1921" />
+              <option value="1907" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/DifferenceTest.cs</url>
-          <line>28</line>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/DifferenceTest.cs</url>
+          <line>32</line>
           <properties documentPath="$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/DifferenceTest.cs" initialLine="25">
             <startOffsets>
-              <option value="897" />
+              <option value="951" />
             </startOffsets>
             <endOffsets>
-              <option value="898" />
+              <option value="952" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/DifferenceTest.cs</url>
-          <line>48</line>
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/DifferenceTest.cs</url>
+          <line>55</line>
           <properties documentPath="$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/DifferenceTest.cs" initialLine="48">
             <startOffsets>
-              <option value="1592" />
+              <option value="1710" />
             </startOffsets>
             <endOffsets>
-              <option value="1593" />
+              <option value="1711" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/DifferenceTest.cs</url>
+          <line>99</line>
+          <properties documentPath="$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/DifferenceTest.cs" initialLine="88">
+            <startOffsets>
+              <option value="3113" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3114" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/ApiTest.cs</url>
+          <line>41</line>
+          <properties documentPath="$PROJECT_DIR$/Geodesic.Triangles.Test/ApiTest.cs" initialLine="42">
+            <startOffsets>
+              <option value="1461" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1493" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Geodesic.Triangles.Test/ApiTest.cs</url>
+          <line>14</line>
+          <properties documentPath="$PROJECT_DIR$/Geodesic.Triangles.Test/ApiTest.cs" initialLine="14">
+            <startOffsets>
+              <option value="322" />
+            </startOffsets>
+            <endOffsets>
+              <option value="338" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="128" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>i++</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>id.EncodeLong().PolygonAround().ToGeoJson()</expression-string>
         <language-id>C#</language-id>
@@ -757,12 +836,6 @@
         <custom-info>RiderImportsList:System.Runtime.CompilerServices;System.Runtime.CompilerServices;System.Runtime.CompilerServices;System.Runtime.CompilerServices;System.Runtime.CompilerServices;System.Runtime.CompilerServices</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>Math.Pi/2</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:System.Runtime.CompilerServices;System.Runtime.CompilerServices;System.Runtime.CompilerServices;System.Runtime.CompilerServices;System.Runtime.CompilerServices;System.Runtime.CompilerServices</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
@@ -780,26 +853,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#90#0" expanded="true" />
-            <marker date="1587388773475" expanded="true" signature="127:398" ph="{...}" />
-            <marker date="1587388773475" expanded="true" signature="181:392" ph="{...}" />
-            <marker date="1587388773475" expanded="true" signature="291:375" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret column="15640" selection-start-column="15640" selection-end-column="15640" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/tests/test.geojson" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CDAE4105-7E89-4723-8979-C3C1D3936A03/6d/aeb7d2f7/Math.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1097">
@@ -838,10 +893,269 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Test/IdEncoderTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+          <folding>
+            <marker date="1588166709734" expanded="true" signature="6:20" ph="..." />
+            <marker date="1588166709734" expanded="true" signature="136:2289" ph="{...}" />
+            <marker date="1588166709734" expanded="true" signature="208:410" ph="{...}" />
+            <marker date="1588166709734" expanded="true" signature="477:679" ph="{...}" />
+            <marker date="1588166709734" expanded="true" signature="746:948" ph="{...}" />
+            <marker date="1588166709734" expanded="true" signature="1015:1217" ph="{...}" />
+            <marker date="1588166709734" expanded="true" signature="1284:1484" ph="{...}" />
+            <marker date="1588166709734" expanded="true" signature="1551:1750" ph="{...}" />
+            <marker date="1588166709734" expanded="true" signature="1817:2016" ph="{...}" />
+            <marker date="1588166709734" expanded="true" signature="2083:2283" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/RadianCoordinate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/tests.csproj" />
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/QtmToWgs.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/ZotCoordinate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <marker date="1588166709750" expanded="false" signature="6:20" ph="..." />
+            <marker date="1588166709750" expanded="true" signature="123:5873" ph="{...}" />
+            <marker date="1588166709750" expanded="true" signature="474:746" ph="{...}" />
+            <marker date="1588166709750" expanded="true" signature="812:993" ph="{...}" />
+            <marker date="1588166709750" expanded="true" signature="1060:1290" ph="{...}" />
+            <marker date="1588166709750" expanded="true" signature="1365:1651" ph="{...}" />
+            <marker date="1588166709750" expanded="true" signature="1713:2178" ph="{...}" />
+            <marker date="1588166709750" expanded="true" signature="2240:2482" ph="{...}" />
+            <marker date="1588166709750" expanded="true" signature="2543:2825" ph="{...}" />
+            <marker date="1588166709750" expanded="true" signature="2888:3312" ph="{...}" />
+            <marker date="1588166709750" expanded="true" signature="3375:3658" ph="{...}" />
+            <marker date="1588166709750" expanded="true" signature="3721:4027" ph="{...}" />
+            <marker date="1588166709750" expanded="true" signature="4090:4396" ph="{...}" />
+            <marker date="1588166709750" expanded="true" signature="4482:4838" ph="{...}" />
+            <marker date="1588166709750" expanded="true" signature="4895:5065" ph="{...}" />
+            <marker date="1588166709750" expanded="true" signature="5130:5339" ph="{...}" />
+            <marker date="1588166709750" expanded="true" signature="5404:5584" ph="{...}" />
+            <marker date="1588166709750" expanded="true" signature="5645:5867" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Test/QtmToWgsTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="388" column="15" selection-end-line="620" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Test/WgsToQtmTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+          <folding>
+            <marker date="1588166709746" expanded="true" signature="6:39" ph="..." />
+            <marker date="1588166709746" expanded="true" signature="147:8254" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="813:863" ph="/* OCt 5 ... */" />
+            <marker date="1588166709746" expanded="true" signature="1413:1907" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="1511:1601" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="1714:1884" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="1984:2468" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="2085:2175" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="2288:2458" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="2540:3024" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="2641:2731" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="2844:3014" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="3099:3578" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="3398:3568" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="3653:4145" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="3761:3851" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="3908:4078" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="4218:4703" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="4320:4410" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="4523:4693" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="4774:5256" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="4873:4963" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="5076:5246" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="5329:5826" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="5443:5533" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="5646:5816" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="5896:6377" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="5994:6084" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="6197:6367" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="6447:6928" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="6545:6635" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="6748:6918" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="6994:7472" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="7089:7179" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="7292:7462" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="7548:7796" ph="{...}" />
+            <marker date="1588166709746" expanded="true" signature="7920:8248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Demo/FietsstallingenGent.csv.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Demo/FietsstallingenGent.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="346">
+          <caret line="1721" column="21" selection-start-line="1721" selection-start-column="21" selection-end-line="1721" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Demo/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+          <folding>
+            <marker date="1588166709758" expanded="false" signature="6:83" ph="..." />
+            <marker date="1588166709758" expanded="true" signature="118:2257" ph="{...}" />
+            <marker date="1588166709758" expanded="true" signature="138:2255" ph="{...}" />
+            <marker date="1588166709758" expanded="true" signature="184:2249" ph="{...}" />
+            <marker date="1588166709758" expanded="true" signature="405:936" ph="{...}" />
+            <marker date="1588166709758" expanded="true" signature="513:579" ph="{...}" />
+            <marker date="1588166709758" expanded="true" signature="785:873" ph="{...}" />
+            <marker date="1588166709758" expanded="true" signature="1046:1269" ph="{...}" />
+            <marker date="1588166709758" expanded="true" signature="1146:1216" ph="{...}" />
+            <marker date="1588166709758" expanded="true" signature="1516:2130" ph="{...}" />
+            <marker date="1588166709758" expanded="true" signature="1761:2060" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Demo/Example.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret column="137895" selection-end-column="146022" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Geodesic.Triangles.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Test/Geodesic.Triangles.Test.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Demo/Geodesic.Triangles.Demo.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.Rider2019.1/system/log/UnitTestLogs/Sessions/2020-04-29-15-16-00-708___b1b87a38-95a6-41c2-8372-9281de88ff12.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/Coordinate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <marker date="1588166709878" expanded="true" signature="6:127" ph="..." />
+            <marker date="1588166709878" expanded="true" signature="223:2378" ph="{...}" />
+            <marker date="1588166709878" expanded="true" signature="256:2376" ph="{...}" />
+            <marker date="1588166709878" expanded="true" signature="385:603" ph="{...}" />
+            <marker date="1588166709878" expanded="true" signature="481:593" ph="{...}" />
+            <marker date="1588166709878" expanded="true" signature="732:796" ph="{...}" />
+            <marker date="1588166709878" expanded="true" signature="854:923" ph="{...}" />
+            <marker date="1588166709878" expanded="true" signature="1048:1159" ph="{...}" />
+            <marker date="1588166709878" expanded="true" signature="1202:1287" ph="{...}" />
+            <marker date="1588166709878" expanded="true" signature="1297:1463" ph="/// Returns a new coordinate which wraps the longitude onto the regular -180 -&gt; 180 range ... " />
+            <marker date="1588166709878" expanded="true" signature="1526:1787" ph="{...}" />
+            <marker date="1588166709878" expanded="true" signature="1590:1646" ph="{...}" />
+            <marker date="1588166709878" expanded="true" signature="1675:1731" ph="{...}" />
+            <marker date="1588166709878" expanded="true" signature="1837:2011" ph="{...}" />
+            <marker date="1588166709878" expanded="true" signature="1899:1955" ph="{...}" />
+            <marker date="1588166709878" expanded="true" signature="2056:2268" ph="{...}" />
+            <marker date="1588166709878" expanded="true" signature="2118:2174" ph="{...}" />
+            <marker date="1588166709878" expanded="true" signature="2319:2370" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/WgsToQtm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding>
+            <marker date="1588166709910" expanded="true" signature="52:6706" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="89:6704" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="159:234" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="386:682" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="750:827" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="893:974" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="1066:1190" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="1262:3148" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="1429:1511" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="1532:1614" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="1733:1789" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="1817:1929" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="1956:2068" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="2406:3114" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="2596:2851" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="2646:2721" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="2758:2833" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="2880:3071" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="3159:4044" ph="/// Determines in which quadrant of the triangle the point lies, where p0, p1 and p2 are corners of the triangle ... " />
+            <marker date="1588166709910" expanded="true" signature="4319:6698" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="4691:4783" ph="/* Manhattan distance is &lt; s/2 from the pole point ... */" />
+            <marker date="1588166709910" expanded="true" signature="4813:5330" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="5356:5992" ph="{...}" />
+            <marker date="1588166709910" expanded="true" signature="5387:5564" ph="/* The centerpoint moves a bit, halfway between eastmost and polePointing ... */" />
+            <marker date="1588166709910" expanded="true" signature="5679:5752" ph="/* Eastmost triangle ... */" />
+            <marker date="1588166709910" expanded="true" signature="6018:6333" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/71/6ffd196d/ExecutionTimer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/1c/bd712047/TestInvoker`1.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
-          <caret line="161" column="6" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="6" />
+          <caret line="282" column="14" selection-start-line="282" selection-start-column="14" selection-end-line="282" selection-end-column="14" />
           <folding>
             <marker date="1576500279873" expanded="true" signature="0:361" ph="/* Decompiled with JetBrains decompiler ... */" />
             <marker date="1576500279873" expanded="true" signature="544:14157" ph="{...}" />
@@ -899,389 +1213,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/IdEncoderTest.cs">
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Test/ApiTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <marker date="1588093590630" expanded="true" signature="6:45" ph="..." />
-            <marker date="1588093590630" expanded="true" signature="110:2305" ph="{...}" />
-            <marker date="1588093590630" expanded="true" signature="150:2303" ph="{...}" />
-            <marker date="1588093590630" expanded="true" signature="222:424" ph="{...}" />
-            <marker date="1588093590630" expanded="true" signature="491:693" ph="{...}" />
-            <marker date="1588093590630" expanded="true" signature="760:962" ph="{...}" />
-            <marker date="1588093590630" expanded="true" signature="1029:1231" ph="{...}" />
-            <marker date="1588093590630" expanded="true" signature="1298:1498" ph="{...}" />
-            <marker date="1588093590630" expanded="true" signature="1565:1764" ph="{...}" />
-            <marker date="1588093590630" expanded="true" signature="1831:2030" ph="{...}" />
-            <marker date="1588093590630" expanded="true" signature="2097:2297" ph="{...}" />
+            <marker date="1588166709730" expanded="true" signature="6:26" ph="..." />
+            <marker date="1588166709730" expanded="true" signature="61:1511" ph="{...}" />
+            <marker date="1588166709730" expanded="true" signature="88:1509" ph="{...}" />
+            <marker date="1588166709730" expanded="true" signature="299:616" ph="{...}" />
+            <marker date="1588166709730" expanded="true" signature="676:899" ph="{...}" />
+            <marker date="1588166709730" expanded="true" signature="968:1503" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/RadianCoordinate.cs">
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Test/DifferenceTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="120">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding>
-            <marker date="1588088642790" expanded="true" signature="59:455" ph="{...}" />
-            <marker date="1588088642790" expanded="true" signature="97:453" ph="{...}" />
-            <marker date="1588088642790" expanded="true" signature="245:311" ph="{...}" />
-            <marker date="1588088642790" expanded="true" signature="350:447" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="6:114" ph="..." />
+            <marker date="1588166709902" expanded="true" signature="149:4625" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="183:4623" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="236:952" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="296:401" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="550:705" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="775:862" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="1006:1711" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="1066:1156" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="1305:1460" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="1529:1616" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="1763:3114" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="1828:2053" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="2204:3044" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="2322:2533" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="2602:3030" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="2871:2963" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="3184:3679" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="3248:3669" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="3322:3655" ph="{...}" />
+            <marker date="1588166709902" expanded="true" signature="3745:4069" ph="/// Returns an estimate of the distance between the two given coordinates. ... " />
+            <marker date="1588166709902" expanded="true" signature="4179:4617" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/WgsToQtm.cs">
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/IdEncoder.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="332">
+          <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
           <folding>
-            <marker date="1588090009775" expanded="true" signature="59:6713" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="96:6711" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="166:241" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="393:689" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="757:834" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="900:981" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="1073:1197" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="1269:3155" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="1436:1518" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="1539:1621" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="1740:1796" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="1824:1936" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="1963:2075" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="2413:3121" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="2603:2858" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="2653:2728" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="2765:2840" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="2887:3078" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="3166:4051" ph="/// Determines in which quadrant of the triangle the point lies, where p0, p1 and p2 are corners of the triangle ... " />
-            <marker date="1588090009775" expanded="true" signature="4326:6705" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="4698:4790" ph="/* Manhattan distance is &lt; s/2 from the pole point ... */" />
-            <marker date="1588090009775" expanded="true" signature="4820:5337" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="5363:5999" ph="{...}" />
-            <marker date="1588090009775" expanded="true" signature="5394:5571" ph="/* The centerpoint moves a bit, halfway between eastmost and polePointing ... */" />
-            <marker date="1588090009775" expanded="true" signature="5686:5759" ph="/* Eastmost triangle ... */" />
-            <marker date="1588090009775" expanded="true" signature="6025:6340" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="52:2698" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="59:146" ph="/// Converts an QTM-id into a int32 or int64number ... " />
+            <marker date="1588167544110" expanded="true" signature="182:2696" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="236:297" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="347:1309" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="434:776" ph="/* 7 = 111 ... */" />
+            <marker date="1588167544110" expanded="true" signature="835:892" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="1099:1275" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="1361:1974" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="1384:1592" ph="/* We need: ... */" />
+            <marker date="1588167544110" expanded="true" signature="1624:1776" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="1869:1942" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="2052:2690" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="2075:2287" ph="/* We need: ... */" />
+            <marker date="1588167544110" expanded="true" signature="2319:2472" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="2583:2657" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/tests.csproj">
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/GeodesicTriangles.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/QtmToWgs.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="-93">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
           <folding>
-            <marker date="1588090009767" expanded="false" signature="6:47" ph="..." />
-            <marker date="1588090009767" expanded="true" signature="134:5167" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="171:5165" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="320:1784" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="479:670" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="687:925" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="1131:1743" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="1207:1462" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="1257:1332" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="1369:1444" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="1491:1569" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="1851:2028" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="2154:3455" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="2313:2504" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="2521:2759" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="2845:3407" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="2921:3176" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="2971:3046" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="3083:3158" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="3205:3283" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="3736:5159" ph="{...}" />
-            <marker date="1588090009767" expanded="true" signature="3776:5149" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="6:101" ph="..." />
+            <marker date="1588167947443" expanded="true" signature="131:8753" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="138:334" ph="/// ... " />
+            <marker date="1588167947443" expanded="true" signature="376:8751" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="391:752" ph="/// Converts a coordinate into a QTM-id, with 31 (or less) quadrants precision. ... " />
+            <marker date="1588167947443" expanded="true" signature="853:1107" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="895:1035" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="1117:1556" ph="/// Converts a coordinate into a QTM-id, with 15 (or less) quadrants precision. ... " />
+            <marker date="1588167947443" expanded="true" signature="1658:1958" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="1700:1887" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="1968:2225" ph="/// Converts a QTM-id into a coordinate, by returning the center point of the represented triangle. ... " />
+            <marker date="1588167947443" expanded="true" signature="2306:2378" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="2388:2645" ph="/// Converts a QTM-id into a coordinate, by returning the center point of the represented triangle. ... " />
+            <marker date="1588167947443" expanded="true" signature="2727:2842" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="2852:3306" ph="/// Gives the triangle that contains this point, for the given precision. ... " />
+            <marker date="1588167947443" expanded="true" signature="3445:3519" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="3529:3828" ph="/// Gives the triangle that contains the given octant. ... " />
+            <marker date="1588167947443" expanded="true" signature="3922:3992" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="4002:4444" ph="/// Gives the triangle that is represented by this identifier ... " />
+            <marker date="1588167947443" expanded="true" signature="4533:4600" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="4610:5064" ph="/// Gives the triangle that contains this point, for the given precision. ... " />
+            <marker date="1588167947443" expanded="true" signature="5152:5219" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="5310:6088" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="5635:5859" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="5876:6045" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="6147:6244" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="6262:6383" ph="/// Determines if the triangle 'container' contains the triangle 'containee' ... " />
+            <marker date="1588167947443" expanded="true" signature="6458:7090" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="6507:6628" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="6786:6844" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="6902:7054" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="6970:7040" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="7100:7399" ph="/// This method is mostly meant to give some insight into the process, but should not be used in production. ... " />
+            <marker date="1588167947443" expanded="true" signature="7577:7643" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="7653:7952" ph="/// This method is mostly meant to give some insight into the process, but should not be used in production. ... " />
+            <marker date="1588167947443" expanded="true" signature="8089:8212" ph="{...}" />
+            <marker date="1588167947443" expanded="true" signature="8222:8521" ph="/// This method is mostly meant to give some insight into the process, but should not be used in production. ... " />
+            <marker date="1588167947443" expanded="true" signature="8644:8745" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/ZotCoordinate.cs">
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/Utils.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+        <state relative-caret-position="105">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
-            <marker date="1588088642786" expanded="false" signature="6:66" ph="..." />
-            <marker date="1588088642786" expanded="true" signature="112:6616" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="147:820" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="282:389" ph="/// A coordinate in ZOT-space (zenithal orthogonal projection) ... " />
-            <marker date="1588088642786" expanded="true" signature="465:580" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="623:687" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="742:814" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="868:6614" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="970:1058" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="1187:1404" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="1235:1393" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="1474:1558" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="1639:1995" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="1711:1824" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="2005:2479" ph="/// Calculates the scaling factor to rescale the distance from the pole ... " />
-            <marker date="1588088642786" expanded="true" signature="2539:3279" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="2671:2740" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="2784:2885" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="3449:5721" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="3641:3828" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="3672:3731" ph="/* Lon is 0 or 180° ... */" />
-            <marker date="1588088642786" expanded="true" signature="3843:4109" ph="/* The ZOT coordinate is a zenithal, orthogonal projection ... */" />
-            <marker date="1588088642786" expanded="true" signature="4124:5083" ph="/* However, instead of having a circle, we want a square ... */" />
-            <marker date="1588088642786" expanded="true" signature="5098:5355" ph="/* formula of the diagonal line: y = x - 1 ... */" />
-            <marker date="1588088642786" expanded="true" signature="5792:6608" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="5934:6034" ph="{...}" />
-            <marker date="1588088642786" expanded="true" signature="6184:6358" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/Anyways.GeodesicTriangles.Test.csproj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/IdEncoder.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
-          <folding>
-            <marker date="1588111276460" expanded="true" signature="59:2663" ph="{...}" />
-            <marker date="1588111276460" expanded="true" signature="66:153" ph="/// Converts an QTM-id into a int32 or int64number ... " />
-            <marker date="1588111276460" expanded="true" signature="187:2661" ph="{...}" />
-            <marker date="1588111276460" expanded="true" signature="241:302" ph="{...}" />
-            <marker date="1588111276460" expanded="true" signature="352:1314" ph="{...}" />
-            <marker date="1588111276460" expanded="true" signature="439:781" ph="/* 7 = 111 ... */" />
-            <marker date="1588111276460" expanded="true" signature="840:897" ph="{...}" />
-            <marker date="1588111276460" expanded="true" signature="1104:1280" ph="{...}" />
-            <marker date="1588111276460" expanded="true" signature="1366:1979" ph="{...}" />
-            <marker date="1588111276460" expanded="true" signature="1389:1597" ph="/* We need: ... */" />
-            <marker date="1588111276460" expanded="true" signature="1629:1781" ph="{...}" />
-            <marker date="1588111276460" expanded="true" signature="1874:1947" ph="{...}" />
-            <marker date="1588111276460" expanded="true" signature="2033:2655" ph="{...}" />
-            <marker date="1588111276460" expanded="true" signature="2056:2268" ph="/* We need: ... */" />
-            <marker date="1588111276460" expanded="true" signature="2300:2453" ph="{...}" />
-            <marker date="1588111276460" expanded="true" signature="2548:2622" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Anyways.GeodesicTriangles.csproj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ZotTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding>
-            <marker date="1588093590646" expanded="false" signature="6:68" ph="..." />
-            <marker date="1588093590646" expanded="true" signature="110:5889" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="137:5887" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="488:760" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="826:1007" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="1074:1304" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="1379:1665" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="1727:2192" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="2254:2496" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="2557:2839" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="2902:3326" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="3389:3672" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="3735:4041" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="4104:4410" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="4496:4852" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="4909:5079" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="5144:5353" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="5418:5598" ph="{...}" />
-            <marker date="1588093590646" expanded="true" signature="5659:5881" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/Coordinate.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <marker date="1588115248993" expanded="true" signature="6:127" ph="..." />
-            <marker date="1588115248993" expanded="true" signature="237:2392" ph="{...}" />
-            <marker date="1588115248993" expanded="true" signature="270:2390" ph="{...}" />
-            <marker date="1588115248993" expanded="true" signature="399:617" ph="{...}" />
-            <marker date="1588115248993" expanded="true" signature="495:607" ph="{...}" />
-            <marker date="1588115248993" expanded="true" signature="746:810" ph="{...}" />
-            <marker date="1588115248993" expanded="true" signature="868:937" ph="{...}" />
-            <marker date="1588115248993" expanded="true" signature="1062:1173" ph="{...}" />
-            <marker date="1588115248993" expanded="true" signature="1216:1301" ph="{...}" />
-            <marker date="1588115248993" expanded="true" signature="1311:1477" ph="/// Returns a new coordinate which wraps the longitude onto the regular -180 -&gt; 180 range ... " />
-            <marker date="1588115248993" expanded="true" signature="1540:1801" ph="{...}" />
-            <marker date="1588115248993" expanded="true" signature="1604:1660" ph="{...}" />
-            <marker date="1588115248993" expanded="true" signature="1689:1745" ph="{...}" />
-            <marker date="1588115248993" expanded="true" signature="1851:2025" ph="{...}" />
-            <marker date="1588115248993" expanded="true" signature="1913:1969" ph="{...}" />
-            <marker date="1588115248993" expanded="true" signature="2070:2282" ph="{...}" />
-            <marker date="1588115248993" expanded="true" signature="2132:2188" ph="{...}" />
-            <marker date="1588115248993" expanded="true" signature="2333:2384" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/ApiTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <marker date="1588115248997" expanded="true" signature="6:26" ph="..." />
-            <marker date="1588115248997" expanded="true" signature="68:1619" ph="{...}" />
-            <marker date="1588115248997" expanded="true" signature="95:1617" ph="{...}" />
-            <marker date="1588115248997" expanded="true" signature="306:620" ph="{...}" />
-            <marker date="1588115248997" expanded="true" signature="688:911" ph="{...}" />
-            <marker date="1588115248997" expanded="true" signature="980:1611" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/QtmToWgsTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <marker date="1588115253577" expanded="false" signature="6:87" ph="..." />
-            <marker date="1588115253577" expanded="true" signature="129:960" ph="{...}" />
-            <marker date="1588115253577" expanded="true" signature="161:958" ph="{...}" />
-            <marker date="1588115253577" expanded="true" signature="309:943" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/WgsToQtmTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="46" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-          <folding>
-            <marker date="1588116628860" expanded="true" signature="6:87" ph="..." />
-            <marker date="1588116628860" expanded="true" signature="129:8270" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="161:8268" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="827:877" ph="/* OCt 5 ... */" />
-            <marker date="1588116628860" expanded="true" signature="1427:1921" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="1525:1615" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="1728:1898" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="1998:2482" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="2099:2189" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="2302:2472" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="2554:3038" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="2655:2745" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="2858:3028" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="3113:3592" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="3412:3582" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="3667:4159" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="3775:3865" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="3922:4092" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="4232:4717" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="4334:4424" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="4537:4707" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="4788:5270" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="4887:4977" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="5090:5260" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="5343:5840" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="5457:5547" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="5660:5830" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="5910:6391" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="6008:6098" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="6211:6381" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="6461:6942" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="6559:6649" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="6762:6932" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="7008:7486" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="7103:7193" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="7306:7476" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="7562:7810" ph="{...}" />
-            <marker date="1588116628860" expanded="true" signature="7934:8262" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="388" column="15" selection-end-line="620" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/GeodesicTriangles.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="136" column="28" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
-          <folding>
-            <marker date="1588115248985" expanded="true" signature="6:89" ph="..." />
-            <marker date="1588115248985" expanded="true" signature="126:6585" ph="{...}" />
-            <marker date="1588115248985" expanded="true" signature="133:329" ph="/// ... " />
-            <marker date="1588115248985" expanded="true" signature="371:6583" ph="{...}" />
-            <marker date="1588115248985" expanded="true" signature="386:747" ph="/// Converts a coordinate into a QTM-id, with 31 (or less) quadrants precision. ... " />
-            <marker date="1588115248985" expanded="true" signature="848:1102" ph="{...}" />
-            <marker date="1588115248985" expanded="true" signature="890:1030" ph="{...}" />
-            <marker date="1588115248985" expanded="true" signature="1111:1550" ph="/// Converts a coordinate into a QTM-id, with 15 (or less) quadrants precision. ... " />
-            <marker date="1588115248985" expanded="true" signature="1652:1952" ph="{...}" />
-            <marker date="1588115248985" expanded="true" signature="1694:1881" ph="{...}" />
-            <marker date="1588115248985" expanded="true" signature="1962:2219" ph="/// Converts a QTM-id into a coordinate, by returning the center point of the represented triangle. ... " />
-            <marker date="1588115248985" expanded="true" signature="2300:2372" ph="{...}" />
-            <marker date="1588115248985" expanded="true" signature="2381:2638" ph="/// Converts a QTM-id into a coordinate, by returning the center point of the represented triangle. ... " />
-            <marker date="1588115248985" expanded="true" signature="2720:2835" ph="{...}" />
-            <marker date="1588115248985" expanded="true" signature="2844:3298" ph="/// Gives the triangle that contains this point, for the given precision. ... " />
-            <marker date="1588115248985" expanded="true" signature="3437:3511" ph="{...}" />
-            <marker date="1588115248985" expanded="true" signature="3520:3819" ph="/// Gives the triangle that contains the given octant. ... " />
-            <marker date="1588115248985" expanded="true" signature="3913:3983" ph="{...}" />
-            <marker date="1588115248985" expanded="true" signature="3992:4434" ph="/// Gives the triangle that is represented by this identifier ... " />
-            <marker date="1588115248985" expanded="true" signature="4523:4590" ph="{...}" />
-            <marker date="1588115248985" expanded="true" signature="4599:5053" ph="/// Gives the triangle that contains this point, for the given precision. ... " />
-            <marker date="1588115248985" expanded="true" signature="5141:5208" ph="{...}" />
-            <marker date="1588115248985" expanded="true" signature="5299:6077" ph="{...}" />
-            <marker date="1588115248985" expanded="true" signature="5624:5848" ph="{...}" />
-            <marker date="1588115248985" expanded="true" signature="5865:6034" ph="{...}" />
-            <marker date="1588115248985" expanded="true" signature="6087:6386" ph="/// This method is mostly meant to give some insight into the process, but should not be used in production. ... " />
-            <marker date="1588115248985" expanded="true" signature="6504:6577" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles/Internal/Utils.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-          <folding>
-            <marker date="1588117249617" expanded="false" signature="6:52" ph="..." />
-            <marker date="1588117249617" expanded="true" signature="98:2340" ph="{...}" />
-            <marker date="1588117249617" expanded="true" signature="132:2338" ph="{...}" />
-            <marker date="1588117249617" expanded="true" signature="241:454" ph="{...}" />
-            <marker date="1588117249617" expanded="true" signature="356:402" ph="{...}" />
-            <marker date="1588117249617" expanded="true" signature="632:2332" ph="{...}" />
-            <marker date="1588117249617" expanded="true" signature="738:1605" ph="{...}" />
-            <marker date="1588117249617" expanded="true" signature="870:964" ph="{...}" />
-            <marker date="1588117249617" expanded="true" signature="1706:2169" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Anyways.GeodesicTriangles.Test/DifferenceTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-          <folding>
-            <marker date="1588117070992" expanded="false" signature="6:121" ph="..." />
-            <marker date="1588117070992" expanded="true" signature="163:3104" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="197:3102" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="250:898" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="310:415" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="564:805" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="952:1593" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="1012:1102" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="1251:1496" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="1663:2158" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="1727:2148" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="1801:2134" ph="{...}" />
-            <marker date="1588117070992" expanded="true" signature="2224:2548" ph="/// Returns an estimate of the distance between the two given coordinates. ... " />
-            <marker date="1588117070992" expanded="true" signature="2658:3096" ph="{...}" />
+            <marker date="1588168526210" expanded="false" signature="6:52" ph="..." />
+            <marker date="1588168526210" expanded="true" signature="91:2059" ph="{...}" />
+            <marker date="1588168526210" expanded="true" signature="125:2057" ph="{...}" />
+            <marker date="1588168526210" expanded="true" signature="365:2051" ph="{...}" />
+            <marker date="1588168526210" expanded="true" signature="477:1324" ph="{...}" />
+            <marker date="1588168526210" expanded="true" signature="609:703" ph="{...}" />
+            <marker date="1588168526210" expanded="true" signature="1425:1888" ph="{...}" />
           </folding>
         </state>
       </provider>

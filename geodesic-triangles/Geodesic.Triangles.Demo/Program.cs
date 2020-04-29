@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Anyways.GeodesicTriangles.Demo
+namespace Geodesic.Triangles.Demo
 {
     class Program
     {

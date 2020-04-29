@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace Anyways.GeodesicTriangles.Test
+namespace Geodesic.Triangles.Test
 {
     public class ApiTest
     {

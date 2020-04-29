@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Anyways.GeodesicTriangles.Internal
+namespace Geodesic.Triangles.Internal
 {
     internal class ZotCoordinate
     {

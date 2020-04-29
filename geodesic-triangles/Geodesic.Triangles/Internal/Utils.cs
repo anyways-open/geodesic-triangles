@@ -1,10 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Anyways.GeodesicTriangles.Internal
+namespace Geodesic.Triangles.Internal
 {
     internal static class Utils
     {
+        
+        
         public static string ToGeoJson(
             this IEnumerable<(IEnumerable<(double lon, double lat)> l, Dictionary<string, string> properties)> lines,
             Coordinate targetPoint = default(Coordinate))

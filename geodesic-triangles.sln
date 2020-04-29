@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4BC94355-387D-4914-93F7-DA0AFFD6E14C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7EBFD98F-BFEF-443C-82D8-823730465ED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geodesic.Triangles", "src\Geodesic.Triangles\Geodesic.Triangles.csproj", "{84EF9C4D-D717-405A-9313-58C1B88419C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geodesic.Triangles.Test", "test\Geodesic.Triangles.Test\Geodesic.Triangles.Test.csproj", "{B36A3098-F77D-45DF-B1C4-66D98DB98582}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{95765C74-CCB1-498F-AB69-42872826DE10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geodesic.Triangles.Demo", "samples\Geodesic.Triangles.Demo\Geodesic.Triangles.Demo.csproj", "{0DE38927-A0F9-4BB4-B10D-36F27FA3931A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84EF9C4D-D717-405A-9313-58C1B88419C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84EF9C4D-D717-405A-9313-58C1B88419C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84EF9C4D-D717-405A-9313-58C1B88419C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84EF9C4D-D717-405A-9313-58C1B88419C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36A3098-F77D-45DF-B1C4-66D98DB98582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36A3098-F77D-45DF-B1C4-66D98DB98582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36A3098-F77D-45DF-B1C4-66D98DB98582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36A3098-F77D-45DF-B1C4-66D98DB98582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE38927-A0F9-4BB4-B10D-36F27FA3931A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE38927-A0F9-4BB4-B10D-36F27FA3931A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE38927-A0F9-4BB4-B10D-36F27FA3931A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE38927-A0F9-4BB4-B10D-36F27FA3931A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84EF9C4D-D717-405A-9313-58C1B88419C3} = {4BC94355-387D-4914-93F7-DA0AFFD6E14C}
+		{B36A3098-F77D-45DF-B1C4-66D98DB98582} = {7EBFD98F-BFEF-443C-82D8-823730465ED7}
+		{0DE38927-A0F9-4BB4-B10D-36F27FA3931A} = {95765C74-CCB1-498F-AB69-42872826DE10}
+	EndGlobalSection
+EndGlobal

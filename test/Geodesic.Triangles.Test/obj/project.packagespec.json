@@ -1,0 +1,66 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/pietervdvn/werk/geodesic-triangles/test/Geodesic.Triangles.Test/Geodesic.Triangles.Test.csproj",
+    "projectName": "Geodesic.Triangles.Test",
+    "projectPath": "/home/pietervdvn/werk/geodesic-triangles/test/Geodesic.Triangles.Test/Geodesic.Triangles.Test.csproj",
+    "outputPath": "/home/pietervdvn/werk/geodesic-triangles/test/Geodesic.Triangles.Test/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {},
+      "https://build.anyways.eu/httpAuth/app/nuget/feed/_Root/default/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "/home/pietervdvn/werk/geodesic-triangles/src/Geodesic.Triangles/Geodesic.Triangles.csproj": {
+            "projectPath": "/home/pietervdvn/werk/geodesic-triangles/src/Geodesic.Triangles/Geodesic.Triangles.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.2.0, )"
+        },
+        "coverlet.collector": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

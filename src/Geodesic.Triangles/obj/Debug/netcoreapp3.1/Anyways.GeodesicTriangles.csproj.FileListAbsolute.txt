@@ -1,0 +1,8 @@
+/home/pietervdvn/werk/geodesic-triangles/geodesic-triangles/Anyways.GeodesicTriangles/bin/Debug/netcoreapp3.1/Anyways.GeodesicTriangles.deps.json
+/home/pietervdvn/werk/geodesic-triangles/geodesic-triangles/Anyways.GeodesicTriangles/bin/Debug/netcoreapp3.1/Anyways.GeodesicTriangles.dll
+/home/pietervdvn/werk/geodesic-triangles/geodesic-triangles/Anyways.GeodesicTriangles/bin/Debug/netcoreapp3.1/Anyways.GeodesicTriangles.pdb
+/home/pietervdvn/werk/geodesic-triangles/geodesic-triangles/Anyways.GeodesicTriangles/obj/Debug/netcoreapp3.1/Anyways.GeodesicTriangles.csprojAssemblyReference.cache
+/home/pietervdvn/werk/geodesic-triangles/geodesic-triangles/Anyways.GeodesicTriangles/obj/Debug/netcoreapp3.1/Anyways.GeodesicTriangles.AssemblyInfoInputs.cache
+/home/pietervdvn/werk/geodesic-triangles/geodesic-triangles/Anyways.GeodesicTriangles/obj/Debug/netcoreapp3.1/Anyways.GeodesicTriangles.AssemblyInfo.cs
+/home/pietervdvn/werk/geodesic-triangles/geodesic-triangles/Anyways.GeodesicTriangles/obj/Debug/netcoreapp3.1/Anyways.GeodesicTriangles.dll
+/home/pietervdvn/werk/geodesic-triangles/geodesic-triangles/Anyways.GeodesicTriangles/obj/Debug/netcoreapp3.1/Anyways.GeodesicTriangles.pdb

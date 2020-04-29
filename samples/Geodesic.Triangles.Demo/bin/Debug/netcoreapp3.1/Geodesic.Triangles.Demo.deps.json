@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Geodesic.Triangles.Demo/1.0.0": {
+        "dependencies": {
+          "Geodesic.Triangles": "1.0.0"
+        },
+        "runtime": {
+          "Geodesic.Triangles.Demo.dll": {}
+        }
+      },
+      "Geodesic.Triangles/1.0.0": {
+        "runtime": {
+          "Geodesic.Triangles.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Geodesic.Triangles.Demo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Geodesic.Triangles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

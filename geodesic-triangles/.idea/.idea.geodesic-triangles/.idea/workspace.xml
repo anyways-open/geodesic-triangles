@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54057c47-40b8-42fb-acce-ec8ab7c54c73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.geodesic-triangles/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.geodesic-triangles/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.geodesic-triangles/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.geodesic-triangles/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles.Demo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles.Demo/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles.Test/ApiTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles.Test/ApiTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles.Test/DifferenceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles.Test/DifferenceTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles.Test/IdEncoderTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles.Test/IdEncoderTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles.Test/QtmToWgsTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles.Test/QtmToWgsTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles.Test/WgsToQtmTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles.Test/WgsToQtmTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles.Test/ZotTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles/GeodesicTriangles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles/GeodesicTriangles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles/Internal/Coordinate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles/Internal/Coordinate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles/Internal/IdEncoder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles/Internal/IdEncoder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles/Internal/QtmToWgs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles/Internal/QtmToWgs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles/Internal/RadianCoordinate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles/Internal/RadianCoordinate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles/Internal/Utils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles/Internal/Utils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles/Internal/WgsToQtm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles/Internal/WgsToQtm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles/Internal/ZotCoordinate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles/Internal/ZotCoordinate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geodesic-triangles.sln" beforeDir="false" afterPath="$PROJECT_DIR$/geodesic-triangles.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles.Demo/Example.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles.Demo/Example.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geodesic.Triangles.Demo/FietsstallingenGent.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Geodesic.Triangles.Demo/FietsstallingenGent.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/Utils.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -205,7 +190,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/IdEncoder.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="332">
@@ -230,11 +215,6 @@
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Demo/Geodesic.Triangles.Demo.csproj">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -305,7 +285,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/geodesic-triangles/Class1.cs" />
         <option value="$PROJECT_DIR$/geodesic-triangle-test/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/geodesic-triangle-test/QtmToWgs.cs" />
         <option value="$PROJECT_DIR$/geodesic-triangles/Triangle.cs" />
@@ -356,6 +335,7 @@
         <option value="$PROJECT_DIR$/Geodesic.Triangles/Internal/IdEncoder.cs" />
         <option value="$PROJECT_DIR$/Geodesic.Triangles/GeodesicTriangles.cs" />
         <option value="$PROJECT_DIR$/Geodesic.Triangles/Internal/Utils.cs" />
+        <option value="$PROJECT_DIR$/Geodesic.Triangles.Demo/FietsstallingenGent.csv" />
       </list>
     </option>
   </component>
@@ -402,6 +382,12 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="geodesic-triangles" type="24d0babc:SolutionExplorerModelNode" />
               <item name="test" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="geodesic-triangles" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="test" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Geodesic.Triangles.Demo" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
@@ -531,12 +517,12 @@
       <workItem from="1587987005147" duration="30316000" />
       <workItem from="1588071446840" duration="12383000" />
       <workItem from="1588085542373" duration="16971000" />
-      <workItem from="1588159669945" duration="8790000" />
+      <workItem from="1588159669945" duration="10135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218707000" />
+    <option name="totallyTimeSpent" value="220052000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -551,12 +537,12 @@
     <frame x="-6" y="0" width="1692" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4959255" visible="true" weight="0.23953912" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4959255" visible="true" weight="0.23953912" />
       <window_info id="Structure" order="1" sideWeight="0.5051665" side_tool="true" weight="0.31109762" />
       <window_info id="Favorites" order="2" sideWeight="0.5040745" side_tool="true" weight="0.421387" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4098737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.304248" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.89200634" weight="0.46383467" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -564,8 +550,8 @@
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.3282887" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Unit Tests" order="10" sideWeight="0.49867654" visible="true" weight="0.35017222" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3444317" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" sideWeight="0.49867654" weight="0.35017222" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2445465" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.10799365" side_tool="true" weight="0.44121072" />
       <window_info anchor="bottom" id="Build" order="13" weight="0.30195177" />
       <window_info anchor="bottom" id="Errors In Solution" order="14" weight="0.32945284" />
@@ -1028,16 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Demo/FietsstallingenGent.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="346">
-          <caret line="1721" column="21" selection-start-line="1721" selection-start-column="21" selection-end-line="1721" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Demo/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
@@ -1058,13 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Demo/Example.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret column="137895" selection-end-column="146022" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Geodesic.Triangles.csproj">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1072,9 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Demo/Geodesic.Triangles.Demo.csproj">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/.Rider2019.1/system/log/UnitTestLogs/Sessions/2020-04-29-15-16-00-708___b1b87a38-95a6-41c2-8372-9281de88ff12.log">
       <provider selected="true" editor-type-id="text-editor">
@@ -1259,31 +1225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/IdEncoder.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
-          <folding>
-            <marker date="1588167544110" expanded="true" signature="52:2698" ph="{...}" />
-            <marker date="1588167544110" expanded="true" signature="59:146" ph="/// Converts an QTM-id into a int32 or int64number ... " />
-            <marker date="1588167544110" expanded="true" signature="182:2696" ph="{...}" />
-            <marker date="1588167544110" expanded="true" signature="236:297" ph="{...}" />
-            <marker date="1588167544110" expanded="true" signature="347:1309" ph="{...}" />
-            <marker date="1588167544110" expanded="true" signature="434:776" ph="/* 7 = 111 ... */" />
-            <marker date="1588167544110" expanded="true" signature="835:892" ph="{...}" />
-            <marker date="1588167544110" expanded="true" signature="1099:1275" ph="{...}" />
-            <marker date="1588167544110" expanded="true" signature="1361:1974" ph="{...}" />
-            <marker date="1588167544110" expanded="true" signature="1384:1592" ph="/* We need: ... */" />
-            <marker date="1588167544110" expanded="true" signature="1624:1776" ph="{...}" />
-            <marker date="1588167544110" expanded="true" signature="1869:1942" ph="{...}" />
-            <marker date="1588167544110" expanded="true" signature="2052:2690" ph="{...}" />
-            <marker date="1588167544110" expanded="true" signature="2075:2287" ph="/* We need: ... */" />
-            <marker date="1588167544110" expanded="true" signature="2319:2472" ph="{...}" />
-            <marker date="1588167544110" expanded="true" signature="2583:2657" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/GeodesicTriangles.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-93">
@@ -1343,6 +1284,51 @@
             <marker date="1588168526210" expanded="true" signature="477:1324" ph="{...}" />
             <marker date="1588168526210" expanded="true" signature="609:703" ph="{...}" />
             <marker date="1588168526210" expanded="true" signature="1425:1888" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Demo/Example.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret column="139193" selection-end-column="146034" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Demo/FietsstallingenGent.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="13161">
+          <caret line="1725" selection-start-line="1725" selection-end-line="1725" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles.Demo/Geodesic.Triangles.Demo.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geodesic.Triangles/Internal/IdEncoder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+          <folding>
+            <marker date="1588167544110" expanded="true" signature="52:2698" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="59:146" ph="/// Converts an QTM-id into a int32 or int64number ... " />
+            <marker date="1588167544110" expanded="true" signature="182:2696" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="236:297" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="347:1309" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="434:776" ph="/* 7 = 111 ... */" />
+            <marker date="1588167544110" expanded="true" signature="835:892" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="1099:1275" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="1361:1974" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="1384:1592" ph="/* We need: ... */" />
+            <marker date="1588167544110" expanded="true" signature="1624:1776" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="1869:1942" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="2052:2690" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="2075:2287" ph="/* We need: ... */" />
+            <marker date="1588167544110" expanded="true" signature="2319:2472" ph="{...}" />
+            <marker date="1588167544110" expanded="true" signature="2583:2657" ph="{...}" />
           </folding>
         </state>
       </provider>

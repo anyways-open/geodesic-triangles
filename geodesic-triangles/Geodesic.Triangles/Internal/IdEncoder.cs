@@ -5,7 +5,7 @@ namespace Anyways.GeodesicTriangles.Internal
     /// <summary>
     /// Converts an QTM-id into a int32 or int64number
     /// </summary>
-    public static class IdEncoder
+    internal static class IdEncoder
     {
         public static int[] Decode(this uint l)
         {

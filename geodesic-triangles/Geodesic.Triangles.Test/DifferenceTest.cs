@@ -22,10 +22,14 @@ namespace Anyways.GeodesicTriangles.Test
                 triangles.Add(
                     id.GetRange(0, i).ToArray().EncodeLong().PolygonAround()
                 );
-                geojson = triangles.Select(t => (t, "#00ff00")).ToList().ToGeoJson();
             }
 
-            geojson = triangles.Select(t => (t, "#00ff00")).ToList().ToGeoJson();
+            var colour = new Dictionary<string, string>
+            {
+                {"colour","#00ff00"},
+                {"opacity","0.1"}
+            };
+            geojson = triangles.Select(t => (t, colour)).ToList().ToGeoJson();
         }
 
         [Fact]
@@ -42,10 +46,57 @@ namespace Anyways.GeodesicTriangles.Test
                 triangles.Add(
                     id.GetRange(0, i).ToArray().EncodeLong().PolygonAround()
                 );
-                geojson = triangles.Select((t,j) => (t, "#00ff"+j)).ToList().ToGeoJson();
+            }
+            var colour = new Dictionary<string, string>
+            {
+                {"colour","#00ff00"},
+                {"opacity","0.1"}
+            };
+            geojson = triangles.Select((t, j) => (t, colour)).ToList().ToGeoJson();
+        }
+
+        [Fact]
+        public void GenerateField()
+        {
+            var ids = new List<List<int>>
+            {
+                new List<int> {1},
+                new List<int> {2},
+                new List<int> {4},
+                new List<int> {5},
+                new List<int> {6},
+                new List<int> {8},
+            };
+
+            var triangles = new List<(IEnumerable<(double lon, double lat)>, Dictionary<string, string>)>();
+            for (var i = 0; i < 3; i++)
+            {
+                ids = ids.SelectMany(id =>
+                    new List<List<int>>
+                    {
+                        id.Append(0).ToList(),
+                        id.Append(1).ToList(),
+                        id.Append(2).ToList(),
+                        id.Append(3).ToList(),
+                    }
+                ).ToList();
+
+                foreach (var id in ids)
+                {
+                    var thickness = "" + ((3 - i) * 3 + 0.5);
+                    triangles.Add(
+                        (id.ToArray().EncodeLong().PolygonAround(),
+                           new Dictionary<string, string>
+                           {
+                               {"stroke-width", thickness+""}
+                           }
+                        )
+                    );
+                }
             }
 
-            geojson = triangles.Select((t,j) => (t, "#00ff"+j)).ToList().ToGeoJson();
+
+            var geojson = triangles.ToList().ToGeoJson();
         }
 
         [Fact]

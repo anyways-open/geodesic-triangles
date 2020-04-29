@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Anyways.GeodesicTriangles.Internal;
 
 namespace Anyways.GeodesicTriangles
@@ -26,6 +27,7 @@ namespace Anyways.GeodesicTriangles
 
             return coordinate.GetId(precision).EncodeLong();
         }
+
         /// <summary>
         /// Converts a coordinate into a QTM-id, with 15 (or less) quadrants precision.
         /// </summary>
@@ -52,6 +54,7 @@ namespace Anyways.GeodesicTriangles
         {
             return TriangleCenterPoint((ulong) id);
         }
+
         /// <summary>
         /// Converts a QTM-id into a coordinate, by returning the center point of the represented triangle.
         /// When using a precision > 21, this should be less then a few meters away from the original coordinate
@@ -60,6 +63,7 @@ namespace Anyways.GeodesicTriangles
         {
             return QtmToWgs.GenerateCenterPoint(id.Decode()).ToRadian().ToDegrees().AsTuple();
         }
+
         /// <summary>
         /// Gives the triangle that contains this point, for the given precision.
         /// Note that this polygon is always a triangle (as seen on the globe), but it might not look like one on a mercator projected map:
@@ -71,6 +75,7 @@ namespace Anyways.GeodesicTriangles
         {
             return PolygonAround(c.GetId(precision));
         }
+
         /// <summary>
         /// Gives the triangle that contains the given octant.
         /// Note that this polygon is always a triangle (as seen on the globe), but it'll have the appearance of a rectangle
@@ -80,6 +85,7 @@ namespace Anyways.GeodesicTriangles
         {
             return PolygonAround(new[] {octant});
         }
+
         /// <summary>
         /// Gives the triangle that is represented by this identifier
         /// Note that this polygon is always a triangle (as seen on the globe), but it might not look like one on a mercator projected map:
@@ -90,6 +96,7 @@ namespace Anyways.GeodesicTriangles
         {
             return PolygonAround(id.Decode());
         }
+
         /// <summary>
         /// Gives the triangle that contains this point, for the given precision.
         /// Note that this polygon is always a triangle (as seen on the globe), but it might not look like one on a mercator projected map:
@@ -132,9 +139,35 @@ namespace Anyways.GeodesicTriangles
         /// It is excellent to debug with though! This output can be used in a website such as geojson.io or QGIS
         /// </summary>
         /// <returns></returns>
-        public static string ToGeoJson(this IEnumerable<(double lon, double lat)> polygon, string colour = "#ff0000")
+        [Obsolete]
+        public static string ToGeoJson(
+            this IEnumerable<(IEnumerable<(double lon, double lat)>, Dictionary<string, string> properties)> polygons)
         {
-            return Utils.ToGeoJson(polygon, colour);
+            return Utils.ToGeoJson(polygons);
+        }
+
+        /// <summary>
+        /// This method is mostly meant to give some insight into the process, but should not be used in production.
+        /// It is excellent to debug with though! This output can be used in a website such as geojson.io or QGIS
+        /// </summary>
+        /// <returns></returns>
+        [Obsolete]
+        public static string ToGeoJson(
+            this IEnumerable<IEnumerable<(double lon, double lat)>> polygons)
+        {
+            return Utils.ToGeoJson(polygons.Select(poly => (poly, new Dictionary<string, string>())));
+        }
+
+        /// <summary>
+        /// This method is mostly meant to give some insight into the process, but should not be used in production.
+        /// It is excellent to debug with though! This output can be used in a website such as geojson.io or QGIS
+        /// </summary>
+        /// <returns></returns>
+        [Obsolete]
+        public static string ToGeoJson(
+            this IEnumerable<(double lon, double lat)> polygon)
+        {
+            return ToGeoJson(new List<IEnumerable<(double, double)>> {polygon});
         }
     }
 }

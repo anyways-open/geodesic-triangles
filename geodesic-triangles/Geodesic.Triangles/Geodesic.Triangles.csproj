@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-        <RootNamespace>Anyways.GeodesicTriangles</RootNamespace>
-        <AssemblyName>Anyways.GeodesicTriangles</AssemblyName>
+        <RootNamespace>Geodesic.Triangles</RootNamespace>
+        <AssemblyName>Geodesic.Triangles</AssemblyName>
     </PropertyGroup>
 
 </Project>

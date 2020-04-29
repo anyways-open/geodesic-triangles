@@ -4,6 +4,8 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
 
         <IsPackable>false</IsPackable>
+
+        <RootNamespace>Anyways.GeodesicTriangles.Test</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -14,7 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Anyways.GeodesicTriangles\Anyways.GeodesicTriangles.csproj" />
+      <ProjectReference Include="..\Geodesic.Triangles\Geodesic.Triangles.csproj" />
     </ItemGroup>
 
 </Project>

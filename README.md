@@ -134,6 +134,13 @@ Digits of precision | Size of triangle (km²) 	| Size estimate
 24                  | 1.2m² 					| A garden table
 25                  | 0.25m² 					| 
 
+
+# Top level triangles
+
+An example of the first triangle splits:
+
+![Triangles](Examples/Triangles.png)
+
 ## Attribution
 
 Images in this readme are encoded with Geojson.io, the background map is by [OpenStreetMap.org], styled by [Mapbox.com]

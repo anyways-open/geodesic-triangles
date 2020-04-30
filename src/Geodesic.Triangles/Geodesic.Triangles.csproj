@@ -8,7 +8,7 @@
         <Title>Geodesic.Triangles</Title>
         <Authors>Pieter Vander Vennet</Authors>
         <Description>A way to split the surface of the world in triangles of the same size</Description>
-        <Copyright>Anyways BV</Copyright>
+        <Copyright>ANYWAYS BV</Copyright>
         <PackageProjectUrl>https://github.com/anyways-open/geodesic-triangles</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/anyways-open/geodesic-triangles/blob/master/LICENSE</PackageLicenseUrl>
         <PackageIconUrl>https://raw.githubusercontent.com/anyways-open/geodesic-triangles/master/logo.png</PackageIconUrl>

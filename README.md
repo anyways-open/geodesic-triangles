@@ -1,6 +1,6 @@
 # geodesic-triangles
 
-[![Build status](https://build.anyways.eu/app/rest/builds/buildType:(id:geodesic-triangles)/statusIcon.svg)](https://build.anyways.eu/viewType.html?buildTypeId=geodesic-triangles&guest=1)  
+[![Build status](https://build.anyways.eu/app/rest/builds/buildType:(id:anyways_Libraries_GeodesicTriangles)/statusIcon.svg)](https://build.anyways.eu/viewType.html?buildTypeId=anyways_Libraries_GeodesicTriangles&guest=1)  
 
 
 ![NuGet status](https://buildstats.info/nuget/Geodesic.Triangles?includePreReleases=true)

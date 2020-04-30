@@ -4,6 +4,7 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
         <RootNamespace>Geodesic.Triangles</RootNamespace>
         <AssemblyName>Geodesic.Triangles</AssemblyName>
+        <Version>0.0.1</Version>
     </PropertyGroup>
 
 </Project>

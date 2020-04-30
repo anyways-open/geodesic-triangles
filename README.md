@@ -1,6 +1,8 @@
 # geodesic-triangles
 
-![Build status](https://build.anyways.eu/app/rest/builds/buildType:(id:geodesic-triangles)/statusIcon)]
+[![Build status](https://build.anyways.eu/app/rest/builds/buildType:(id:geodesic-triangles)/statusIcon.svg)](https://build.anyways.eu/viewType.html?buildTypeId=geodesic-triangles)  
+
+
 ![NuGet status](https://buildstats.info/nuget/Geodesic.Triangles?includePreReleases=true)
 
 Geodesic-Triangles is a small library, which uses fancy math to split the surface of the earth into triangles, where the triangles are roughly the same size.
